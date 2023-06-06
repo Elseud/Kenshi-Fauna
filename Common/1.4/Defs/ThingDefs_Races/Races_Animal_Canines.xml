@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ThingBaseWolf">
+    <defName>KenshiFauna_Bonedog</defName>
+    <label>bonedog</label>
+    <description>A fearsome canine which roams the wastes in large packs, they are fairly hostile to anything foreign within their territory.  These creatures, however wild by nature, have been domesticated by people as trusty companions and loyal guardians.</description>
+    <race>
+      <meatLabel>wolf meat</meatLabel>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseWolf">
+    <defName>KenshiFauna_Bonedog</defName>
+    <label>bonedog</label>
+    <labelPlural>bonedogs</labelPlural>
+    <race>KenshiFauna_Bonedog</race>
+    <lifeStages>
+      <li>
+        <label>bonedog pup</label>
+        <labelPlural>bonedog puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Animals/Bonedog/Bonedog</texPath>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/Bonedog/Dessicated_Bonedog</texPath>
+          <drawSize>1.05</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/Bonedog/Bonedog</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/Bonedog/Dessicated_Bonedog</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/Bonedog/Bonedog</texPath>
+          <drawSize>1.95</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/Bonedog/Dessicated_Bonedog</texPath>
+          <drawSize>1.95</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

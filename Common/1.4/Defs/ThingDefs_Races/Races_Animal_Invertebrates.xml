@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseInvertebrate">
+    <devNote>invertebrate</devNote>
+    <statBases>
+      <ToxicResistance>1</ToxicResistance>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </statBases>
+    <race>
+      <fleshType>Insectoid</fleshType>
+      <bloodDef>Filth_BloodInsect</bloodDef>
+      <meatColor>(160,168,139)</meatColor>
+      <meatMarketValue>0.5</meatMarketValue>
+      <foodType>OmnivoreAnimal, AnimalProduct</foodType>
+      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+    </race>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">InsectMeat</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+  </ThingDef>
+
+  <!-- ====================================================== -->
+
+  <ThingDef ParentName="BaseInvertebrate">
+    <defName>Bloodspider</defName>
+    <label>bloodspider</label>
+    <description>A large, quadrupedal invertebrate with two small graspers tucked under their abdomen. They act primarily as scavengers, seeking out the weak or dying to drain them of their blood, hence their macabre name. Not an actual member of the arachnia genus, their true origins remain a mystery.</description>
+    <statBases>
+      <MoveSpeed>3.75</MoveSpeed>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>100</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+    </statBases>
+    <uiIconScale>2</uiIconScale>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>SpiderLike</body>
+      <baseBodySize>0.2</baseBodySize>
+      <baseHungerRate>0.10</baseHungerRate>
+      <baseHealthScale>0.4</baseHealthScale>
+      <lifeExpectancy>10</lifeExpectancy>
+      <wildness>0.2</wildness>
+      <trainability>Intermediate</trainability>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.4</minAge>
+          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+          <soundDeath>Pawn_Megascarab_Death</soundDeath>
+          <soundCall>Pawn_Megascarab_Call</soundCall>
+          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.12)</li>
+        <li>(0.07, 0, -0.05)</li>
+        <li>(0.0, 0, -0.08)</li>
+        <li>(-0.07, 0, -0.05)</li>
+      </headPosPerRotation>
+    </race>
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Bloodspider</defName>
+    <label>bloodspider</label>
+    <race>Bloodspider</race>
+    <combatPower>40</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>0.15</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/BloodSpider/BloodSpider</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/BloodSpider/Dessicated_BloodSpider</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/BloodSpider/BloodSpider</texPath>
+          <drawSize>1.15</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/BloodSpider/Dessicated_BloodSpider</texPath>
+          <drawSize>1.15</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/BloodSpider/BloodSpider</texPath>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/BloodSpider/Dessicated_BloodSpider</texPath>
+          <drawSize>1.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  <!-- ====================================================== -->
+
+  <ThingDef ParentName="BaseInvertebrate">
+    <defName>Skinspider</defName>
+    <label>skinspider</label>
+    <description>A large, quadrupedal invertebrate the size of a sheep. They carry two clawed graspers tucked under their abdomen. While their smaller cousin tends to act as a scavenger, skinspiders actively hunt prey. They incapacitate a victim and insert their proboscis down the throat to suck the victims organs out. Not an actual member of the arachnia genus, their true origins remain a mystery.</description>
+    <statBases>
+      <MoveSpeed>3.65</MoveSpeed>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <MarketValue>200</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+    </statBases>
+    <uiIconScale>1.1</uiIconScale>
+    <tools>
+      <li>
+        <label>head claw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLikeWithClaw</body>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>1.7</baseHealthScale>
+      <lifeExpectancy>6</lifeExpectancy>
+      <wildness>0.3</wildness>
+      <trainability>Advanced</trainability>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.2</minAge>
+          <soundWounded>Pawn_Spelopede_Pain</soundWounded>
+          <soundDeath>Pawn_Spelopede_Death</soundDeath>
+          <soundCall>Pawn_Spelopede_Call</soundCall>
+          <soundAngry>Pawn_Spelopede_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.14)</li>
+        <li>(0.07, 0, 0.08)</li>
+        <li>(0.0, 0, -0.12)</li>
+        <li>(-0.07, 0, 0.08)</li>
+      </headPosPerRotation>
+    </race>
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Skinspider</defName>
+    <label>skinspider</label>
+    <race>Skinspider</race>
+    <combatPower>75</combatPower>
+    <canArriveManhunter>true</canArriveManhunter>
+    <ecoSystemWeight>0.35</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/SkinSpider/SkinSpider</texPath>
+          <drawSize>1</drawSize>
+          <color>(156,148,125)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/SkinSpider/Dessicated_SkinSpider</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/SkinSpider/SkinSpider</texPath>
+          <drawSize>1.25</drawSize>
+          <color>(156,148,125)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/SkinSpider/Dessicated_SkinSpider</texPath>
+          <drawSize>1.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/SkinSpider/SkinSpider</texPath>
+          <drawSize>1.65</drawSize>
+          <color>(156,148,125)</color>
+          <shadowData>
+            <volume>(0.4, 0.5, 0.37)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/SkinSpider/Dessicated_SkinSpider</texPath>
+          <drawSize>1.65</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Kenshi Fauna</name> 
+	<author></author>		
+	<packageId>KenshiFauna.9797beep</packageId>
+	<description></description>
+		
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+
+	<modDependencies/>
+	<loadAfter/>
+</ModMetaData>
