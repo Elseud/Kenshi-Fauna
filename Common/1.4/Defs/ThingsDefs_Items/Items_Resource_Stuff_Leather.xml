@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Gutter</defName>
+    <label>gutter leather</label>
+    <description>Tanned, dried, scraped beakthing skin. It is exceptionally durable in combat, but is both considered hideous and provides little insulation.</description>
+    <graphicData>
+      <color>(180, 157, 126)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>1.30</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(180, 157, 126)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+        <Beauty>-0.4</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

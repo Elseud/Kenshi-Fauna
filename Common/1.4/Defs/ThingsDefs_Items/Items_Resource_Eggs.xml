@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Gutter -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggGutterFertilized</defName>
+    <label>gutter egg (fert.)</label>
+    <description>A fertilized gutter egg. If all goes well, it should hatch into a beakthing. It can be eaten, however beakthing eggs are highly sought after on the market.</description>
+    <possessionCount>1</possessionCount>
+        <graphicData>
+          <texPath>Items/Misc/GutterEgg</texPath>
+		  <graphicClass>Graphic_StackCount</graphicClass>
+          <drawSize>1.2</drawSize>		  
+        </graphicData>
+    <statBases>
+      <Nutrition>1.2</Nutrition>
+      <MarketValue>51.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>18</hatcherDaystoHatch>
+        <hatcherPawn>KenshiFauna_Gutter</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <!-- Raptor -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggWaterRaptorFertilized</defName>
+    <label>water-raptor egg (fert.)</label>
+    <description>A fertilized water-raptor egg. If all goes well, it should hatch into a water-raptor hatchling. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+        <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+        <drawSize>1.2</drawSize>		  
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>8</hatcherDaystoHatch>
+        <hatcherPawn>KenshiFauna_WaterRaptor</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>  
+
+</Defs>

@@ -4,9 +4,17 @@
   <ThingDef ParentName="ThingBaseWolf">
     <defName>KenshiFauna_Bonedog</defName>
     <label>bonedog</label>
-    <description>A fearsome canine which roams the wastes in large packs, they are fairly hostile to anything foreign within their territory.  These creatures, however wild by nature, have been domesticated by people as trusty companions and loyal guardians.</description>
+    <description>A fearsome canine which roams the desert in large packs looking for corpses and easy prey, they're fairly hostile to anything foreign within their territory.  These creatures, however wild by nature, have been domesticated by people as trusty companions and loyal guardians.</description>
+	<statBases>
+		<ComfyTemperatureMin>-18</ComfyTemperatureMin>
+		<ComfyTemperatureMax>50</ComfyTemperatureMax>
+	</statBases>
     <race>
-      <meatLabel>wolf meat</meatLabel>
+      <meatLabel>dog meat</meatLabel>
+	  <wildBiomes>
+		<AridShrubland>0.8</AridShrubland>
+		<Desert>0.3</Desert>
+	  </wildBiomes>
     </race>
   </ThingDef>
 
@@ -15,6 +23,10 @@
     <label>bonedog</label>
     <labelPlural>bonedogs</labelPlural>
     <race>KenshiFauna_Bonedog</race>
+	<wildGroupSize>
+		<min>1</min>
+		<max>4</max>
+	</wildGroupSize>
     <lifeStages>
       <li>
         <label>bonedog pup</label>
@@ -30,30 +42,30 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Animals/Bonedog/Bonedog</texPath>
-          <drawSize>1.5</drawSize>
+		  <texPath>Animals/Bonedog/Bonedog</texPath>
+          <drawSize>1.4</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Animals/Bonedog/Dessicated_Bonedog</texPath>
-          <drawSize>1.5</drawSize>
+		  <texPath>Animals/Bonedog/Dessicated_Bonedog</texPath>
+          <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Animals/Bonedog/Bonedog</texPath>
-          <drawSize>1.95</drawSize>
+		  <texPath>Animals/Bonedog/Bonedog</texPath>
+          <drawSize>1.75</drawSize>
           <shadowData>
             <volume>(0.3, 0.4, 0.3)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Animals/Bonedog/Dessicated_Bonedog</texPath>
-          <drawSize>1.95</drawSize>
+		  <texPath>Animals/Bonedog/Dessicated_Bonedog</texPath>
+          <drawSize>1.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
