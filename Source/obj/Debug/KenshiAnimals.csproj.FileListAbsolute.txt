@@ -1,0 +1,4 @@
+C:\Users\Janek\source\repos\KenshiAnimals\obj\Debug\KenshiAnimals.csproj.AssemblyReference.cache
+C:\Users\Janek\source\repos\KenshiAnimals\obj\Debug\KenshiAnimals.csproj.CoreCompileInputs.cache
+C:\Users\Janek\source\repos\KenshiAnimals\bin\Debug\KenshiAnimals.dll
+C:\Users\Janek\source\repos\KenshiAnimals\obj\Debug\KenshiAnimals.dll
