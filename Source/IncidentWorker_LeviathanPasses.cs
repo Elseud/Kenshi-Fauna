@@ -34,7 +34,7 @@ namespace KenshiAnimals
                 if (result.IsValid)
                     newThing.mindState.forcedGotoPosition = CellFinder.RandomClosewalkCellNear(result, target, 10);
             }
-            this.SendStandardLetter("LetterLabelThrumboPasses".Translate((NamedArgument)KenshiFaunaLeviathan.label).CapitalizeFirst(), "LetterLeviathanPasses".Translate((NamedArgument)KenshiFaunaLeviathan.label), LetterDefOf.PositiveEvent, parms, (LookTargets)(Thing)newThing);
+            this.SendStandardLetter("LetterLabelLeviathanPasses".Translate((NamedArgument)KenshiFaunaLeviathan.label).CapitalizeFirst(), "LetterLeviathanPasses".Translate((NamedArgument)KenshiFaunaLeviathan.label), LetterDefOf.PositiveEvent, parms, (LookTargets)(Thing)newThing);
             return true;
         }
 

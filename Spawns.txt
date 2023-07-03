@@ -10,4 +10,4 @@ Sand Skimmer: desert and extreme desert
 
 Gorillo and Landbat: arid shrubland, temperate forest, temperate swamp
 
-Leviathan: event only in any environment except sea ice, ice sheet and tundra (todo C#)
+Leviathan: event only (C# done)
