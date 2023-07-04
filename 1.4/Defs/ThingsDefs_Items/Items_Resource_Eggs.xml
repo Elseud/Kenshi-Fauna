@@ -9,7 +9,7 @@
     <possessionCount>1</possessionCount>
         <graphicData>
           <texPath>Items/GutterEgg</texPath>
-		  <graphicClass>Graphic_StackCount</graphicClass>
+          <graphicClass>Graphic_StackCount</graphicClass>
           <drawSize>1.2</drawSize>		  
         </graphicData>
     <statBases>

@@ -4,7 +4,7 @@
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Gutter</defName>
     <label>gutter leather</label>
-    <description>Tanned, dried, scraped beakthing skin. It is exceptionally durable in combat, but is both considered hideous and provides little insulation.</description>
+    <description>Tanned, dried, scraped beakthing skin. While exceptionally durable in combat, it is both considered hideous and provides little insulation.</description>
     <graphicData>
       <color>(180, 157, 126)</color>
     </graphicData>
@@ -20,6 +20,33 @@
       <statFactors>
         <MaxHitPoints>1.5</MaxHitPoints>
         <Beauty>-0.4</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Leviathan</defName>
+    <label>leviathan leather</label>
+    <description>Tanned, rock-like hide of the leviathan. Its toughness and durability are nigh-legendary, however its insulation leaves much to be desired. Used in creation of the very best protective vestments.</description>
+    <graphicData>
+      <texPath>Items/LeviathanLeather</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(112, 112, 102)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>18.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.15</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.10</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(112, 112, 102)</color>
+      <commonality>0.015</commonality>
+      <statFactors>
+        <MaxHitPoints>2.2</MaxHitPoints>
+        <Beauty>1.2</Beauty>
       </statFactors>
     </stuffProps>
   </ThingDef>
