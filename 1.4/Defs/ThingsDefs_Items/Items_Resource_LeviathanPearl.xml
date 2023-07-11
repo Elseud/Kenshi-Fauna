@@ -2,13 +2,13 @@
 <Defs>
 
  <ThingDef ParentName="ResourceBase">
-    <defName>LeviathanPearl</defName>
+    <defName>KenshiFauna_LeviathanPearl</defName>
     <label>leviathan pearl</label>
     <description>A giant pearl formed inside a leviathan's gizzard from mineral detritus ingested while feeding. Priceless on most markets, both for its beauty and size, and as a material used in creation of high-class art. It is a true trophy, to be displayed awing guests, or turned into an exquisite piece of masonry.</description>
     <graphicData>
       <texPath>Items/LeviathanPearl</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.3</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <stackLimit>10</stackLimit>
     <useHitPoints>true</useHitPoints>
@@ -31,7 +31,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>NacreBlock</defName>
+    <defName>KenshiFauna_NacreBlock</defName>
     <label>nacre block</label>
     <description>Chunks of nacre cut from a leviathan pearl. It's shine and glossy texture make it a sought after material used in decoration and ornaments. Light and relatively brittle, it makes for a poor weapon material.</description>
     <graphicData>
@@ -97,7 +97,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>LeviathanPearl</li>
+            <li>KenshiFauna_LeviathanPearl</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -105,11 +105,11 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>LeviathanPearl</li>
+        <li>KenshiFauna_LeviathanPearl</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <NacreBlock>50</NacreBlock>
+      <KenshiFauna_NacreBlock>50</KenshiFauna_NacreBlock>
     </products>
     <recipeUsers>
       <li>TableStonecutter</li>

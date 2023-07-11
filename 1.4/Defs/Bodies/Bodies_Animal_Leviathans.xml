@@ -2,11 +2,11 @@
 <Defs>
 
   <BodyDef>
-    <defName>QuadrupedAnimalWithShellAndBeak</defName>
-    <label>beak-thing</label>
+    <defName>QuadrupedAnimalWithHoovesShellAndMandibles</defName>
+    <label>leviathan</label>
     <corePart>
       <def>TurtleShell</def>
-      <customLabel>gutter shell</customLabel>
+      <customLabel>leviathan shell</customLabel>
       <height>Middle</height>
       <depth>Outside</depth>
       <parts>
@@ -40,19 +40,27 @@
         <li>
           <def>Kidney</def>
           <customLabel>left kidney</customLabel>
-          <coverage>0.03</coverage>
+          <coverage>0.02</coverage>
           <depth>Inside</depth>
         </li>
         <li>
           <def>Kidney</def>
           <customLabel>right kidney</customLabel>
-          <coverage>0.03</coverage>
+          <coverage>0.02</coverage>
           <depth>Inside</depth>
         </li>
         <li>
           <def>Liver</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>KenshiFauna_Gizzard</def>
           <coverage>0.03</coverage>
           <depth>Inside</depth>
+          <groups>
+            <li>KenshiFauna_Gizzard</li>
+          </groups>
         </li>
         <li>
           <def>Neck</def>
@@ -99,10 +107,11 @@
                   <coverage>0.06</coverage>
                 </li>
                 <li>
-                  <def>Beak</def>
+                  <def>InsectMouth</def>
+                  <customLabel>leviathan mandibles</customLabel>
                   <coverage>0.25</coverage>
                   <groups>
-                    <li>Beak</li>
+                    <li>Mouth</li>
                   </groups>
                 </li>
               </parts>

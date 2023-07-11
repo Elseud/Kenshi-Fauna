@@ -1,6 +1,6 @@
 General:
 
-Damp environments (rainforest, tropical swamp, temperate swamp): Blood Spider, Swamp Elephant Turtle, Water Raptor, Giant Blind Crab
+Damp environments (rainforest, tropical swamp, temperate swamp): Blood Spider, Elephant Turtle, Water Raptor, Giant Blind Crab
 
 Arid environments (arid shrubland, desert): Gutter, Skin Spider, Garru, Bonebull, Bonegoat, Bonedog
 

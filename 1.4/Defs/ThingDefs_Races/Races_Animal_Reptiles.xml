@@ -61,7 +61,7 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggWaterRaptorFertilized</eggFertilizedDef>
+        <eggFertilizedDef>KenshiFauna_EggWaterRaptorFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>12.33</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>

@@ -3,7 +3,7 @@
 
   <!-- Gutter -->
   <ThingDef ParentName="EggFertBase">
-    <defName>EggGutterFertilized</defName>
+    <defName>KenshiFauna_EggGutterFertilized</defName>
     <label>gutter egg (fert.)</label>
     <description>A fertilized gutter egg. If all goes well, it should hatch into a beakthing. A sought after delicacy, beakthing eggs are highly valued on the market.</description>
     <possessionCount>1</possessionCount>
@@ -26,7 +26,7 @@
   
   <!-- Raptor -->
   <ThingDef ParentName="EggFertBase">
-    <defName>EggWaterRaptorFertilized</defName>
+    <defName>KenshiFauna_EggWaterRaptorFertilized</defName>
     <label>water-raptor egg (fert.)</label>
     <description>A fertilized water-raptor egg. If all goes well, it should hatch into a water-raptor hatchling. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>

@@ -9,7 +9,7 @@
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
       <MoveSpeed>5.0</MoveSpeed>
       <MarketValue>2500</MarketValue>
-      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
@@ -78,7 +78,7 @@
       <petness>0</petness>
       <maxPreyBodySize>3.0</maxPreyBodySize>	  
       <foodType>CarnivoreAnimalStrict</foodType>
-      <leatherDef>Leather_Gutter</leatherDef>
+      <leatherDef>KenshiFauna_Leather_Gutter</leatherDef>
       <trainability>None</trainability>
 	  <roamMtbDays>30</roamMtbDays>
 	  <manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
@@ -121,7 +121,7 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggGutterFertilized</eggFertilizedDef>
+        <eggFertilizedDef>KenshiFauna_EggGutterFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>25</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
