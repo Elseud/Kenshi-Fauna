@@ -169,8 +169,8 @@
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
       <MoveSpeed>4.2</MoveSpeed>
       <MarketValue>400</MarketValue>
-      <ComfyTemperatureMin>5</ComfyTemperatureMin>
-      <ComfyTemperatureMax>65</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <FilthRate>24</FilthRate>
