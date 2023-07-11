@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_WaterRaptor</defName>
-    <label>water-raptor</label>
-    <description>Water-raptors are slow and lumbering bipedal reptiles that skim the muck of swamps and humid environments in ravenous search of any plants or crops. Their hunger has caused them to become the bane of any farmer that tries to live alongside them.</description>
+    <label>water raptor</label>
+    <description>Water raptors are slow and lumbering bipedal reptiles that skim the muck of swamps and humid environments in ravenous search of any plants or crops. Their hunger has caused them to become the bane of any farmer that tries to live alongside them.</description>
     <statBases>
 	  <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
       <MoveSpeed>3.2</MoveSpeed>
@@ -115,7 +115,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>KenshiFauna_WaterRaptor</defName>
-    <label>water-raptor</label>
+    <label>water raptor</label>
     <race>KenshiFauna_WaterRaptor</race>
     <combatPower>55</combatPower>
     <lifeStages>
@@ -156,6 +156,164 @@
         <dessicatedBodyGraphicData>
 		  <texPath>Animals/WaterRaptor/Dessicated_WaterRaptor</texPath>
           <drawSize>2.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>KenshiFauna_ElephantTurtle</defName>
+    <label>elephant turtle</label>
+    <description>Large, genetically modified softshell turtle. Like their namesake, elephant turtles possess prehensile trunks they use to manipulate objects and access vegetation. Being large and timid, they are both an easy to tame pack animal and a low-risk game yielding plenty of food.</description>
+    <statBases>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
+      <MoveSpeed>4.2</MoveSpeed>
+      <MarketValue>400</MarketValue>
+      <ComfyTemperatureMin>5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>65</ComfyTemperatureMax>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <FilthRate>24</FilthRate>
+      <CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
+    </statBases>
+    <tools>
+      <li>
+        <label>left foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14.9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14.9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>QuadrupedAnimalWithHoovesShellAndTrunk</body>
+      <baseHungerRate>1.5</baseHungerRate>
+      <baseBodySize>3.5</baseBodySize>
+      <baseHealthScale>3</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <wildness>0.65</wildness>
+      <lifeExpectancy>40</lifeExpectancy>
+      <packAnimal>true</packAnimal>
+      <trainability>Intermediate</trainability>
+      <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+      <wildBiomes>
+        <TropicalSwamp>0.4</TropicalSwamp>
+        <TemperateSwamp>0.2</TemperateSwamp>
+      </wildBiomes>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.3</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.666</minAge>
+          <soundWounded>todo</soundWounded>
+          <soundDeath>todo</soundDeath>
+          <soundCall>todo</soundCall>
+          <soundAngry>todo</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.2)</li>
+        <li>(0.23, 0, 0.11)</li>
+        <li>(0, 0, 0)</li>
+        <li>(-0.23, 0, 0.11)</li>
+      </headPosPerRotation>
+    </race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>KenshiFauna_EggElephantTurtleFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>15.33</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
+        <eggCountRange>1</eggCountRange>
+      </li>
+    </comps>	
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>KenshiFauna_ElephantTurtle</defName>
+    <label>elephant turtle</label>
+    <race>KenshiFauna_ElephantTurtle</race>
+    <combatPower>200</combatPower>
+    <wildGroupSize>2~5</wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>elephant turtle calf</label>
+        <bodyGraphicData>
+          <texPath>Animals/ElephantTurtle/ElephantTurtle</texPath>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/ElephantTurtle/Dessicated_ElephantTurtle</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/ElephantTurtle/ElephantTurtle</texPath>
+          <drawSize>2.4</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/ElephantTurtle/Dessicated_ElephantTurtle</texPath>
+          <drawSize>2.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/ElephantTurtle/ElephantTurtle</texPath>
+          <drawSize>3.5</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/ElephantTurtle/Dessicated_ElephantTurtle</texPath>
+          <drawSize>3.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
