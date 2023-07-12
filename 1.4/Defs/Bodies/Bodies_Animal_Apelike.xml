@@ -2,8 +2,8 @@
 <Defs>
 
   <BodyDef>
-    <defName>KenshiFauna_ClawedApelike</defName>
-    <label>clawed apelike</label>
+    <defName>KenshiFauna_ThreeFingeredApelike</defName>
+    <label>fingered apelike</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>
@@ -170,24 +170,24 @@
                   <height>Bottom</height>
                   <parts>
                     <li>
-                      <def>FrontClaw</def>
-                      <customLabel>left hand first claw</customLabel>
+                      <def>Finger</def>
+                      <customLabel>left hand first finger</customLabel>
                       <coverage>0.18</coverage>
                       <groups>
                         <li>LeftHand</li>
                       </groups>
                     </li>
                     <li>
-                      <def>FrontClaw</def>
-                      <customLabel>left hand second claw</customLabel>
+                      <def>Finger</def>
+                      <customLabel>left hand second finger</customLabel>
                       <coverage>0.19</coverage>
                       <groups>
                         <li>LeftHand</li>
                       </groups>
                     </li>
                     <li>
-                      <def>FrontClaw</def>
-                      <customLabel>left hand third claw</customLabel>
+                      <def>Finger</def>
+                      <customLabel>left hand third finger</customLabel>
                       <coverage>0.21</coverage>
                       <groups>
                         <li>LeftHand</li>
@@ -228,24 +228,24 @@
                   <height>Bottom</height>
                   <parts>
                     <li>
-                      <def>FrontClaw</def>
-                      <customLabel>right hand first claw</customLabel>
+                      <def>Finger</def>
+                      <customLabel>right hand first finger</customLabel>
                       <coverage>0.18</coverage>
                       <groups>
                         <li>RightHand</li>
                       </groups>
                     </li>
                     <li>
-                      <def>FrontClaw</def>
-                      <customLabel>right hand second claw</customLabel>
+                      <def>Finger</def>
+                      <customLabel>right hand second finger</customLabel>
                       <coverage>0.19</coverage>
                       <groups>
                         <li>RightHand</li>
                       </groups>
                     </li>
                     <li>
-                      <def>FrontClaw</def>
-                      <customLabel>right hand third claw</customLabel>
+                      <def>Finger</def>
+                      <customLabel>right hand third finger</customLabel>
                       <coverage>0.21</coverage>
                       <groups>
                         <li>RightHand</li>
