@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseInvertebrate">
+  <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="KenshiFauna_BaseInvertebrate">
     <devNote>invertebrate</devNote>
     <statBases>
       <ToxicResistance>1</ToxicResistance>
@@ -25,7 +25,7 @@
 
   <!-- Spiders. -->
 
-  <ThingDef ParentName="BaseInvertebrate">
+  <ThingDef ParentName="KenshiFauna_BaseInvertebrate">
     <defName>KenshiFauna_Bloodspider</defName>
     <label>bloodspider</label>
     <description>Lurking in the tangled thickets of swamps and jungles, bloodspiders primarily act as scavengers, seeking out the weak or dying to drain them of their blood. Hence their macabre name.\n\nBloodspiders are not actual spiders, their true nature and origins are unknown.</description>
@@ -61,7 +61,7 @@
       </li>
     </tools>
     <race>
-      <body>SpiderLike</body>
+      <body>KenshiFauna_SpiderLike</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
@@ -155,7 +155,7 @@
     </lifeStages>
   </PawnKindDef>
   
-  <ThingDef ParentName="BaseInvertebrate">
+  <ThingDef ParentName="KenshiFauna_BaseInvertebrate">
     <defName>KenshiFauna_Skinspider</defName>
     <label>skinspider</label>
     <description>A hideous creature, skinspiders are horse sized predators that hunt primarily by incapacitating a victim and sucking their organs out via the esophagus.\n\nBloodspiders are not actual spiders, their true nature and origins are unknown.</description>
@@ -191,7 +191,7 @@
       </li>
     </tools>
     <race>
-      <body>SpiderLike</body>
+      <body>KenshiFauna_SpiderLike</body>
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>0.8</baseBodySize>
       <baseHealthScale>1.7</baseHealthScale>
@@ -286,7 +286,7 @@
   
   <!-- Skimmers. -->
 
-  <ThingDef ParentName="BaseInvertebrate">
+  <ThingDef ParentName="KenshiFauna_BaseInvertebrate">
     <defName>KenshiFauna_SandSkimmer</defName>
     <label>sand-skimmer</label>
     <description>A massive nocturnal invertebrate. Sand-skimmers, true to their name, roam the sand dunes in search of prey and detritus - then retreating into the sand during the heat of the day. While under the sand they rely on their feather-like antennae to detect vibrations from above.</description>
@@ -445,7 +445,7 @@
 
   <!-- Crab. -->
 
-  <ThingDef ParentName="BaseInvertebrate">
+  <ThingDef ParentName="KenshiFauna_BaseInvertebrate">
     <defName>KenshiFauna_GiantCrab</defName>
     <label>crab</label>
     <description>A giant crab holy shit.</description>

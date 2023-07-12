@@ -70,7 +70,7 @@
       </li>
     </tools>
     <race>
-      <body>QuadrupedAnimalWithShellAndBeak</body>
+      <body>KenshiFauna_QuadrupedAnimalWithShellAndBeak</body>
       <baseBodySize>3.7</baseBodySize>
       <baseHungerRate>1.75</baseHungerRate>
       <baseHealthScale>6.0</baseHealthScale>

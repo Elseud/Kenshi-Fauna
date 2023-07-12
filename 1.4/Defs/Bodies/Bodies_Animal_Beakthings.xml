@@ -2,8 +2,8 @@
 <Defs>
 
   <BodyDef>
-    <defName>QuadrupedAnimalWithShellAndBeak</defName>
-    <label>beak-thing</label>
+    <defName>KenshiFauna_QuadrupedAnimalWithShellAndBeak</defName>
+    <label>beak thing</label>
     <corePart>
       <def>TurtleShell</def>
       <customLabel>gutter shell</customLabel>

@@ -2,7 +2,7 @@
 <Defs>
 
   <BodyDef>
-    <defName>BipedalAnimalWithClawsAndTail</defName>
+    <defName>KenshiFauna_BipedalAnimalWithClawsAndTail</defName>
     <label>bipedal animal</label>
     <corePart>
       <def>Body</def>
@@ -221,7 +221,7 @@
   </BodyDef>
 
   <BodyDef>
-    <defName>QuadrupedAnimalWithHoovesShellAndTrunk</defName>
+    <defName>KenshiFauna_QuadrupedAnimalWithHoovesShellAndTrunk</defName>
     <label>elephant turtle</label>
     <corePart>
       <def>TurtleShell</def>

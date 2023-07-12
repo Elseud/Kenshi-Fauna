@@ -2,7 +2,7 @@
 <Defs>
 
   <BodyDef>
-    <defName>QuadrupedAnimalWithHoovesShellAndMandibles</defName>
+    <defName>KenshiFauna_QuadrupedAnimalWithHoovesShellAndMandibles</defName>
     <label>leviathan</label>
     <corePart>
       <def>TurtleShell</def>

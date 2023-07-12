@@ -15,8 +15,8 @@
 	  <CaravanRidingSpeedFactor>-0.2</CaravanRidingSpeedFactor>
     </statBases>
     <race>
-      <body>BipedalAnimalWithClawsAndTail</body>
-      <herdAnimal>false</herdAnimal>
+      <herdAnimal>true</herdAnimal>
+      <body>KenshiFauna_BipedalAnimalWithClawsAndTail</body>
       <baseBodySize>1.6</baseBodySize>
       <baseHealthScale>1.6</baseHealthScale>
       <baseHungerRate>0.82</baseHungerRate>
@@ -118,6 +118,7 @@
     <label>water raptor</label>
     <race>KenshiFauna_WaterRaptor</race>
     <combatPower>55</combatPower>
+    <wildGroupSize>2~6</wildGroupSize>
     <lifeStages>
       <li>
         <label>water-raptor hatchling</label>
@@ -209,7 +210,7 @@
     </tools>
     <race>
       <herdAnimal>true</herdAnimal>
-      <body>QuadrupedAnimalWithHoovesShellAndTrunk</body>
+      <body>KenshiFauna_QuadrupedAnimalWithHoovesShellAndTrunk</body>
       <baseHungerRate>1.5</baseHungerRate>
       <baseBodySize>3.5</baseBodySize>
       <baseHealthScale>3</baseHealthScale>

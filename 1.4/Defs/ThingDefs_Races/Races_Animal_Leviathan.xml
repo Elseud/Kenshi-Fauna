@@ -60,7 +60,7 @@
           </li>
         </tools>
         <race>
-          <body>QuadrupedAnimalWithHoovesShellAndMandibles</body>
+          <body>KenshiFauna_QuadrupedAnimalWithHoovesShellAndMandibles</body>
           <herdMigrationAllowed>false</herdMigrationAllowed>
           <baseBodySize>12</baseBodySize>
           <baseHungerRate>2.25</baseHungerRate>

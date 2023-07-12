@@ -123,7 +123,7 @@
   </BodyDef>
 
   <BodyDef>
-    <defName>SpiderLike</defName>
+    <defName>KenshiFauna_SpiderLike</defName>
     <label>spider-like</label>
     <corePart>
       <def>Shell</def>
