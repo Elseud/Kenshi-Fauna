@@ -472,7 +472,7 @@
       </li>
     </tools>
     <race>
-      <body>SpiderLike</body>
+      <body>KenshiFauna_SpiderLike</body>
       <baseHungerRate>0.15</baseHungerRate>
       <baseBodySize>2.75</baseBodySize>
       <baseHealthScale>2.0</baseHealthScale>
