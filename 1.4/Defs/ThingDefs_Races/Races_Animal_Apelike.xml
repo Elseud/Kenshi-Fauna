@@ -7,7 +7,7 @@
     <description>A large predatory reptile covered in a layer of thick fur. Gorillo's name is owed to its unusual anatomy, more resembling of a gorilla than any of the Earth's reptiles. Vicious and territorial, they won't hesitate to rip apart any who dare to approach them.</description>
     <statBases>
       <MoveSpeed>4.2</MoveSpeed>
-      <MarketValue>550</MarketValue>
+      <MarketValue>650</MarketValue>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <FilthRate>4</FilthRate>
@@ -107,7 +107,7 @@
     <defName>KenshiFauna_Gorillo</defName>
     <label>gorillo</label>
     <race>KenshiFauna_Gorillo</race>
-    <combatPower>160</combatPower>
+    <combatPower>180</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>

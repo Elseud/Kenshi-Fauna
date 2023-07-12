@@ -272,7 +272,7 @@
     <defName>KenshiFauna_ElephantTurtle</defName>
     <label>elephant turtle</label>
     <race>KenshiFauna_ElephantTurtle</race>
-    <combatPower>200</combatPower>
+    <combatPower>120</combatPower>
     <wildGroupSize>2~5</wildGroupSize>
     <lifeStages>
       <li>
