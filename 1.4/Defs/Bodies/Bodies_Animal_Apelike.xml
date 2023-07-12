@@ -3,7 +3,7 @@
 
   <BodyDef>
     <defName>KenshiFauna_ThreeFingeredApelike</defName>
-    <label>fingered apelike</label>
+    <label>three fingered apelike</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>
