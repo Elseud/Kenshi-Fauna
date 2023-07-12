@@ -18,7 +18,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>18</power>
+				<power>16</power>
 				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 			</li>
@@ -27,7 +27,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>18</power>
+				<power>16</power>
 				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 			</li>
@@ -35,7 +35,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>16</power>
+				<power>14</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
@@ -45,7 +45,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>12</power>
+				<power>8</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
