@@ -21,6 +21,14 @@
 				<power>16</power>
 				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
 			</li>
 			<li>
 				<label>right fist</label>
@@ -30,6 +38,14 @@
 				<power>16</power>
 				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
 			</li>
 			<li>
 				<capacities>
@@ -39,6 +55,14 @@
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
 			</li>
 			<li>
 				<label>head</label>
@@ -50,11 +74,21 @@
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>10</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
 			</li>
     </tools>
     <race>
       <herdAnimal>false</herdAnimal>
       <body>KenshiFauna_ThreeFingeredApelike</body>
+      <predator>true</predator>
+      <maxPreyBodySize>3</maxPreyBodySize>
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>3</baseBodySize>
       <baseHealthScale>2.4</baseHealthScale>
@@ -65,6 +99,7 @@
       <trainability>Intermediate</trainability>
       <manhunterOnTameFailChance>1</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <gestationPeriodDays>20</gestationPeriodDays>
       <wildBiomes>
 				<AridShrubland>0.6</AridShrubland>
         <TemperateForest>0.4</TemperateForest>
@@ -100,6 +135,7 @@
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
 
@@ -149,6 +185,186 @@
         <dessicatedBodyGraphicData>
           <texPath>Animals/Gorillo/Dessicated_Gorillo</texPath>
           <drawSize>3.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>KenshiFauna_Landbat</defName>
+    <label>landbat</label>
+    <description>A large mutated bat. The fusing of its wings' fingerbones left the Landbat flightless, forcing it to become a land-bound scavanger, awkwardly shuffling towards remains of others' feasts on their nigh-useless forelimbs. Despite this, due to their large size they can still pose a threat to livestock or unprepared travellers.</description>
+    <statBases>
+      <MoveSpeed>3.8</MoveSpeed>
+      <MarketValue>250</MarketValue>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <FilthRate>3</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+				<label>left foreclaw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>10</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+			</li>
+			<li>
+				<label>right foreclaw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>10</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>10</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+    </tools>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>KenshiFauna_BatApelike</body>
+      <predator>true</predator>
+      <maxPreyBodySize>1</maxPreyBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <wildness>0.85</wildness>
+      <lifeExpectancy>15</lifeExpectancy>
+      <trainability>Intermediate</trainability>
+      <manhunterOnTameFailChance>0.6</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.8</manhunterOnDamageChance>
+      <gestationPeriodDays>10</gestationPeriodDays>
+      <wildBiomes>
+				<AridShrubland>0.6</AridShrubland>
+        <TemperateForest>0.4</TemperateForest>
+        <TemperateSwamp>0.2</TemperateSwamp>
+			</wildBiomes>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.444</minAge>
+          <soundWounded>todo</soundWounded>
+          <soundDeath>todo</soundDeath>
+          <soundCall>todo</soundCall>
+          <soundAngry>todo</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.2)</li>
+        <li>(0.23, 0, 0.11)</li>
+        <li>(0, 0, 0)</li>
+        <li>(-0.23, 0, 0.11)</li>
+      </headPosPerRotation>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>KenshiFauna_Landbat</defName>
+    <label>landbat</label>
+    <race>KenshiFauna_Landbat</race>
+    <combatPower>180</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/Landbat/Landbat</texPath>
+          <drawSize>0.8</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/Landbat/Dessicated_Landbat</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/Landbat/Landbat</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/Landbat/Dessicated_Landbat</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/Landbat/Landbat</texPath>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animals/Landbat/Dessicated_Landbat</texPath>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
