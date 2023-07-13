@@ -328,7 +328,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/Landbat/Landbat</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>1.4</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -336,13 +336,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/Landbat/Dessicated_Landbat</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Animals/Landbat/Landbat</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>2.2</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -350,13 +350,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/Landbat/Dessicated_Landbat</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>2.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Animals/Landbat/Landbat</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>3.2</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -364,7 +364,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/Landbat/Dessicated_Landbat</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>3.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
