@@ -176,7 +176,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/Gorillo/Gorillo</texPath>
-          <drawSize>3.2</drawSize>
+          <drawSize>2.8</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -184,7 +184,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/Gorillo/Dessicated_Gorillo</texPath>
-          <drawSize>3.2</drawSize>
+          <drawSize>2.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
