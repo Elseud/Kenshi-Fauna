@@ -4,10 +4,13 @@
   <ThingDef ParentName="ThingBaseWolf">
     <defName>KenshiFauna_Bonedog</defName>
     <label>bonedog</label>
-    <description>A fearsome canine which roams the desert in large packs looking for corpses and easy prey, they're fairly hostile to anything foreign within their territory.  These creatures, however wild by nature, have been domesticated by people as trusty companions and loyal guardians.</description>
+    <description>A fearsome canine covered in thick bone plating. The bonedog roams the desert in large packs in search of carrion and easy prey, ready to defend its hunting grounds from anything that dares trespass upon it. Despite their wild nature, bonedogs have been domesticated by people as trusty companions and loyal guardians.</description>
 	<statBases>
+    <MarketValue>400</MarketValue>
 		<ComfyTemperatureMin>-18</ComfyTemperatureMin>
 		<ComfyTemperatureMax>50</ComfyTemperatureMax>
+    <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+    <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
 	</statBases>
     <race>
       <meatLabel>dog meat</meatLabel>
@@ -22,10 +25,11 @@
     <defName>KenshiFauna_Bonedog</defName>
     <label>bonedog</label>
     <labelPlural>bonedogs</labelPlural>
+    <combatPower>90</combatPower>
     <race>KenshiFauna_Bonedog</race>
 	<wildGroupSize>
-		<min>1</min>
-		<max>4</max>
+		<min>2</min>
+		<max>6</max>
 	</wildGroupSize>
     <lifeStages>
       <li>

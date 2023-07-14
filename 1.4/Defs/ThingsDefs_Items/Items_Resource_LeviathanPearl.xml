@@ -4,7 +4,7 @@
  <ThingDef ParentName="ResourceBase">
     <defName>KenshiFauna_LeviathanPearl</defName>
     <label>leviathan pearl</label>
-    <description>A giant pearl formed inside a leviathan's gizzard from mineral detritus ingested while feeding. Priceless on most markets, both for its beauty and size, and as a material used in creation of high-class art. It is a true trophy, to be displayed awing guests, or turned into an exquisite piece of masonry.</description>
+    <description>A giant pearl formed inside a leviathan's gizzard from mineral detritus ingested while feeding. Priceless on most markets, both for its beauty and size, and as a material used in creation of high-class art. It is a true trophy, to be displayed as an awe-inspiring centerpiece or turned into an exquisite piece of masonry.</description>
     <graphicData>
       <texPath>Items/LeviathanPearl</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -33,7 +33,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>KenshiFauna_NacreBlock</defName>
     <label>nacre block</label>
-    <description>Chunks of nacre cut from a leviathan pearl. It's shine and glossy texture make it a sought after material used in decoration and ornaments. Light and relatively brittle, it makes for a poor weapon material.</description>
+    <description>Chunks of nacre cut from a leviathan pearl. It's shine and glossy texture make it a sought after material used in decoration and ornaments. Light and relatively brittle, it makes for a poor material when it comes to making any kind of weapon.</description>
     <graphicData>
       <texPath>Items/NacreBrick</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

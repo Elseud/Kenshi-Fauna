@@ -4,11 +4,11 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_Garru</defName>
     <label>garru</label>
-    <description>Garru, or "pack-beasts" as some refer, are large muscular herbivores with thick leathery skin and floppy ears. Their name is nearly synonymous with desert nomads as their heft makes them a boon for caravanners; however, they don't make for particularly excellent cattle.</description>
+    <description>A large muscular herbivore with thick leathery skin and floppy ears. Garrus' are nearly synonymous with desert nomads, as their heft and resilience makes them a boon for caravaneers journeying through inhospitable lands; however, they don't make for particularly good cattle.</description>
     <statBases>
       <MoveSpeed>3.9</MoveSpeed>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
-	  <ComfyTemperatureMax>56</ComfyTemperatureMax>
+      <ComfyTemperatureMax>65</ComfyTemperatureMax>
       <MarketValue>300</MarketValue>
       <FilthRate>16</FilthRate>
     </statBases>
@@ -17,12 +17,12 @@
       <body>QuadrupedAnimalWithHooves</body>
       <baseBodySize>2.6</baseBodySize>
       <baseHealthScale>1.75</baseHealthScale>
-      <baseHungerRate>0.505</baseHungerRate>
+      <baseHungerRate>0.475</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
       <gestationPeriodDays>6.66</gestationPeriodDays>
       <wildness>0.6</wildness>
-      <roamMtbDays>1.8</roamMtbDays>
+      <roamMtbDays>4</roamMtbDays>
       <trainability>None</trainability>
       <packAnimal>true</packAnimal>
       <lifeExpectancy>24</lifeExpectancy>
@@ -98,7 +98,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
@@ -107,7 +107,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
@@ -118,8 +118,8 @@
     <defName>KenshiFauna_Garru</defName>
     <label>garru</label>
     <race>KenshiFauna_Garru</race>
-    <combatPower>45</combatPower>
-    <ecoSystemWeight>0.5</ecoSystemWeight>
+    <combatPower>90</combatPower>
+    <ecoSystemWeight>1.1</ecoSystemWeight>
     <labelMale>bull</labelMale>
     <wildGroupSize>1~7</wildGroupSize>
     <lifeStages>
@@ -175,12 +175,14 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_Goat</defName>
     <label>bonegoat</label>
-    <description>A heavily mutated strain of the domesticated goat, bonegoats sport a slower metabolism and a higher threshold for high temperatures. They often thrive in harsh arid environments.</description>
+    <description>A heavily mutated strain of the domesticated goat. Bonegoats sport a slower metabolism, higher threshold for high temperatures and a bony carapace over their heads that offers them some protection against predators. They often thrive in harsh arid environments.</description>
     <statBases>
       <MoveSpeed>3.9</MoveSpeed>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
-	  <ComfyTemperatureMax>58</ComfyTemperatureMax>
-      <MarketValue>200</MarketValue>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <MarketValue>225</MarketValue>
       <FilthRate>8</FilthRate>
     </statBases>
     <uiIconScale>1.2</uiIconScale>
@@ -249,7 +251,7 @@
         <power>6.3</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.7</chanceFactor>
+        <chanceFactor>0.2</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -260,7 +262,6 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
   </ThingDef>
@@ -270,7 +271,7 @@
     <label>bonegoat</label>
     <labelFemale>bonegoat doe</labelFemale>
     <race>KenshiFauna_Goat</race>
-    <combatPower>45</combatPower>
+    <combatPower>55</combatPower>
     <ecoSystemWeight>0.5</ecoSystemWeight>
     <wildGroupSize>1~5</wildGroupSize>	
     <lifeStages>
@@ -325,12 +326,14 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_Bull</defName>
     <label>bonebull</label>
-    <description>Large bone-plated ungulates, bonebulls are often bred for their meat or used as beasts of burden. In the wild, they're commonly seen moving across the desert wastes in search of scrub vegetation. And while they're herbivorous, their massive horns are used to gore and maim any would-be attackers.</description>
+    <description>Large bone-plated ungulates. Bonebulls are often bred for their meat or used as beasts of burden. In the wild, they're commonly seen moving across the desert wastes in search of scrub vegetation. Thanks to their bone plating and impressive horns, they present a tough target to any would-be predator.</description>
     <statBases>
       <MoveSpeed>3.2</MoveSpeed>
-      <ComfyTemperatureMin>1</ComfyTemperatureMin>
-	  <ComfyTemperatureMax>60</ComfyTemperatureMax>
-      <MarketValue>300</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.21</ArmorRating_Sharp>
+      <MarketValue>400</MarketValue>
       <FilthRate>16</FilthRate>
     </statBases>
     <comps>
@@ -396,22 +399,21 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>8.8</power>
+        <power>9.5</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.7</chanceFactor>
+        <chanceFactor>0.2</chanceFactor>
       </li>
       <li>
-        <label>head</label>
+        <label>horn</label>
         <capacities>
           <li>Stab</li>
           <li>Poke</li>
         </capacities>
-        <power>10</power>
+        <power>11</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
 		<surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -430,6 +432,7 @@
         <power>8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>right hoof</label>
@@ -440,6 +443,7 @@
         <power>8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
     </tools>
   </ThingDef>
@@ -449,7 +453,7 @@
     <label>bonebull</label>
     <labelFemale>bonecow</labelFemale>
     <race>KenshiFauna_Bull</race>
-    <combatPower>75</combatPower>
+    <combatPower>95</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
     <wildGroupSize>1~7</wildGroupSize>
     <lifeStages>

@@ -4,15 +4,16 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_Gutter</defName>
     <label>beakthing</label>
-    <description>A towering, terrifying animal, the beakthing is one of the most aggressive creatures known to humanity. And while they're known for their aggression and durability, they're often too much of a hassle to tame or ranch.\n\nGutter eggs are considered a delicacy by most; fetching a hefty price by those brave enough to steal their eggs.</description>
+    <description>A towering, terrifying animal of unknown origin. The beakthing is one of the most dangerous and aggressive creatures known to humanity. And while their ferocity would make them perfect attack animals, those same qualities ensure they are almost impossible to tame or ranch.\n\nGutter eggs are considered a delicacy by most; fetching a hefty price for those brave enough to steal them.</description>
     <statBases>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
-      <MoveSpeed>5.0</MoveSpeed>
+      <MoveSpeed>5.5</MoveSpeed>
       <MarketValue>2500</MarketValue>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
-      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
       <FilthRate>10</FilthRate>
       <CaravanRidingSpeedFactor>1.4</CaravanRidingSpeedFactor>
     </statBases>
@@ -23,27 +24,43 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>19</power>
+        <power>17</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
         <label>right foot</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>19</power>
+        <power>17</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
         <label>beak</label>
         <capacities>
           <li>Bite</li>
-		  <li>Scratch</li>
+          <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>11</power>
+        <power>20</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -59,10 +76,8 @@
         <label>head</label>
         <capacities>
           <li>Blunt</li>
-		  <li>Scratch</li>
-          <li>Stab</li>
         </capacities>
-        <power>6</power>
+        <power>15</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -72,30 +87,29 @@
     <race>
       <body>KenshiFauna_QuadrupedAnimalWithShellAndBeak</body>
       <baseBodySize>3.7</baseBodySize>
-      <baseHungerRate>1.75</baseHungerRate>
+      <baseHungerRate>1.55</baseHungerRate>
       <baseHealthScale>6.0</baseHealthScale>
       <predator>true</predator>
       <petness>0</petness>
-      <maxPreyBodySize>3.0</maxPreyBodySize>	  
+      <maxPreyBodySize>4.0</maxPreyBodySize>	  
       <foodType>CarnivoreAnimalStrict</foodType>
       <leatherDef>KenshiFauna_Leather_Gutter</leatherDef>
-      <trainability>None</trainability>
-	  <roamMtbDays>30</roamMtbDays>
-	  <manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
+      <trainability>Intermediate</trainability>
+      <manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
-      <wildness>1.00</wildness>
+      <wildness>0.995</wildness>
       <lifeExpectancy>80</lifeExpectancy>
 	  <meatLabel>gutter meat</meatLabel>
 	  <wildBiomes>
-		<AridShrubland>0.76</AridShrubland>
-		<Desert>0.8</Desert>
-		<ExtremeDesert>0.6</ExtremeDesert>
+      <AridShrubland>0.76</AridShrubland>
+      <Desert>0.8</Desert>
+      <ExtremeDesert>0.6</ExtremeDesert>
 	  </wildBiomes>	 	  
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
           <minAge>0</minAge>
-		  <soundWounded>Pawn_Chick_Call</soundWounded>
+          <soundWounded>Pawn_Chick_Call</soundWounded>
           <soundDeath>Pawn_Chick_Call</soundDeath>
           <soundCall>Pawn_Chick_Call</soundCall>
           <soundAngry>Pawn_Chick_Call</soundAngry>
@@ -124,7 +138,7 @@
         <eggFertilizedDef>KenshiFauna_EggGutterFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>25</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
+        <eggProgressUnfertilizedMax>0.2</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
     </comps>	
@@ -137,9 +151,9 @@
     <defName>KenshiFauna_Gutter</defName>
     <label>beakthing</label>
     <race>KenshiFauna_Gutter</race>
-    <combatPower>200</combatPower>
+    <combatPower>450</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <ecoSystemWeight>0.7</ecoSystemWeight>
+    <ecoSystemWeight>1.5</ecoSystemWeight>
 	<wildGroupSize>
 		<min>1</min>
 		<max>3</max>

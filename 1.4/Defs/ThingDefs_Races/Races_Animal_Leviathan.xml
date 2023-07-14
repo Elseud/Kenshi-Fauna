@@ -5,16 +5,16 @@
         <defName>KenshiFauna_Leviathan</defName>
         <label>leviathan</label>
         <devNote>misc</devNote>
-        <description>todo</description>
+        <description>A titanic creature of unknown origin. While peaceful by nature, the leviathan won't hesitate to trample anything in its wake when provoked. The giant pearl that forms in its gizzard is extremely valuable and beautiful, fetching a small fortune on most markets.\n\nResembling no known Earth animal in either appearance or genetic makeup, some believe the leviathan to be an example of true xenofauna.</description>
         <statBases>
-          <MoveSpeed>4.8</MoveSpeed>
+          <MoveSpeed>4.1</MoveSpeed>
           <MarketValue>6000</MarketValue>
           <ComfyTemperatureMin>-20</ComfyTemperatureMin>
           <ComfyTemperatureMax>60</ComfyTemperatureMax>
           <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.50</ArmorRating_Heat>
-          <FilthRate>8</FilthRate>
+          <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          <FilthRate>16</FilthRate>
           <CaravanRidingSpeedFactor>1.2</CaravanRidingSpeedFactor>
         </statBases>
         <uiIconScale>1.75</uiIconScale>

@@ -4,21 +4,21 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_WaterRaptor</defName>
     <label>water raptor</label>
-    <description>Water raptors are slow and lumbering bipedal reptiles that skim the muck of swamps and humid environments in ravenous search of any plants or crops. Their hunger has caused them to become the bane of any farmer that tries to live alongside them.</description>
+    <description>Slow, lumbering bipedal reptile with a passing resemblence to prehistoric theropods. Ever-hungry, water raptors skim the muck of swamps and humid environments in ravenous search of plants or crops. Their insatiable apetites earned them a reputation of destructive vermin, and the bane of any farmer unfortunate enough to live alongside them.</description>
     <statBases>
 	  <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
       <MoveSpeed>3.2</MoveSpeed>
       <MarketValue>200</MarketValue>
       <ComfyTemperatureMin>5</ComfyTemperatureMin>
-      <ComfyTemperatureMax>65</ComfyTemperatureMax>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <FilthRate>8</FilthRate>
 	  <CaravanRidingSpeedFactor>-0.2</CaravanRidingSpeedFactor>
     </statBases>
     <race>
       <herdAnimal>true</herdAnimal>
       <body>KenshiFauna_BipedalAnimalWithClawsAndTail</body>
-      <baseBodySize>1.6</baseBodySize>
-      <baseHealthScale>1.6</baseHealthScale>
+      <baseBodySize>0.9</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
       <baseHungerRate>0.82</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.95</wildness>
@@ -26,10 +26,11 @@
       <lifeExpectancy>35</lifeExpectancy>
       <meatLabel>raptor meat</meatLabel>
       <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+      <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
 	  <wildBiomes>
-		<TropicalSwamp>0.8</TropicalSwamp>
-		<TemperateSwamp>0.4</TemperateSwamp>
+      <TropicalSwamp>0.8</TropicalSwamp>
+      <TropicalRainforest>0.6</TropicalRainforest>
+      <TemperateSwamp>0.4</TemperateSwamp>
 	  </wildBiomes>	  
       <lifeStageAges>
         <li>
@@ -63,7 +64,7 @@
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>KenshiFauna_EggWaterRaptorFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>12.33</eggLayIntervalDays>
+        <eggLayIntervalDays>6.66</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
@@ -76,10 +77,18 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>9.8</power>
-        <cooldownTime>2.6</cooldownTime>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
         <label>head</label>
@@ -97,18 +106,34 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>6.7</power>
+        <power>9</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
         <label>right claw</label>
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>6.7</power>
+        <power>9</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>	  
     </tools>
   </ThingDef>
@@ -121,7 +146,7 @@
     <wildGroupSize>2~6</wildGroupSize>
     <lifeStages>
       <li>
-        <label>water-raptor hatchling</label>
+        <label>water raptor hatchling</label>
         <bodyGraphicData>
           <texPath>Animals/WaterRaptor/WaterRaptor</texPath>
           <drawSize>0.8</drawSize>
@@ -165,15 +190,17 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_ElephantTurtle</defName>
     <label>elephant turtle</label>
-    <description>Large, genetically modified softshell turtle. Like their namesake, elephant turtles possess prehensile trunks they use to manipulate objects and access vegetation. Being large and timid, they are both an easy to tame pack animal and a low-risk game yielding plenty of food.</description>
+    <description>Large, genetically modified soft-shell turtle. Like their namesake, elephant turtles possess prehensile trunks they use to manipulate objects and access vegetation. Being large and timid, they are both an easy to tame pack animal and a low-risk game yielding plenty of food.
+      [7:44 PM]
+      Also</description>
     <statBases>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
       <MoveSpeed>4.2</MoveSpeed>
-      <MarketValue>400</MarketValue>
+      <MarketValue>600</MarketValue>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
-      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <FilthRate>24</FilthRate>
       <CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
     </statBases>
@@ -183,7 +210,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14.9</power>
+        <power>15</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
@@ -192,7 +219,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14.9</power>
+        <power>15</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
@@ -224,6 +251,7 @@
       <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
       <wildBiomes>
         <TropicalSwamp>0.4</TropicalSwamp>
+        <TropicalRainforest>0.3</TropicalRainforest>
         <TemperateSwamp>0.2</TemperateSwamp>
       </wildBiomes>
       <lifeStageAges>
@@ -259,7 +287,7 @@
         <eggFertilizedDef>KenshiFauna_EggElephantTurtleFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>15.33</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
     </comps>	
@@ -272,7 +300,8 @@
     <defName>KenshiFauna_ElephantTurtle</defName>
     <label>elephant turtle</label>
     <race>KenshiFauna_ElephantTurtle</race>
-    <combatPower>120</combatPower>
+    <combatPower>200</combatPower>
+    <ecoSystemWeight>1.5</ecoSystemWeight>
     <wildGroupSize>2~5</wildGroupSize>
     <lifeStages>
       <li>
