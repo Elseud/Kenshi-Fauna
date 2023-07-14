@@ -28,7 +28,7 @@
   <ThingDef ParentName="KenshiFauna_BaseInvertebrate">
     <defName>KenshiFauna_Bloodspider</defName>
     <label>bloodspider</label>
-    <description>A grotesque creature the size of a dog. Bloodspiders primarily act as scavengers, stalking the tangled thickets of swamps and jungles in search of the weak or dying. Once found, the prey is completely drained of blood, earning the bloodspiders their macabre name.\n\nNot actually spiders, bloodspiders' true nature and origins remain unknown.</description>
+    <description>A grotesque creature the size of a dog. Bloodspiders primarily act as scavengers, stalking the tangled thickets of swamps and jungles in search of the weak or dying. Once found, the prey is completely drained of blood, earning the bloodspiders their macabre name.\n\nThey aren't actually spiders, but given their feeding habits, nobody wants to figure out their true nature.</description>
     <statBases>
       <MoveSpeed>4.15</MoveSpeed>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
@@ -168,7 +168,7 @@
   <ThingDef ParentName="KenshiFauna_BaseInvertebrate">
     <defName>KenshiFauna_Skinspider</defName>
     <label>skinspider</label>
-    <description>A grotesque creature the size of a horse. Skinspiders hunt primarily by incapacitating a victim and sucking their organs out via the esophagus, leaving behind nothing but skin and bones.\n\nNot actually spiders, skinspiders' true nature and origins remain unknown.</description>
+    <description>A grotesque creature the size of a horse. Skinspiders hunt primarily by incapacitating a victim and sucking their organs out via the esophagus, leaving behind nothing but skin and bones.\n\nThey aren't actually spiders, but given their feeding habits, nobody wants to figure out their true nature.</description>
     <statBases>
       <MoveSpeed>4.35</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -309,7 +309,7 @@
   <ThingDef ParentName="KenshiFauna_BaseInvertebrate">
     <defName>KenshiFauna_SandSkimmer</defName>
     <label>sandskimmer</label>
-    <description>A massive nocturnal invertebrate. Sandskimmers, true to their name, roam the sand dunes in search of prey and detritus during the night, retreating under the sand on sunrise. While burrowed, they rely on their feather-like antennae to sense vibrations from above.</description>
+    <description>A massive nocturnal invertebrate. Sandskimmers, true to their name, roam the sand dunes in search of prey and detritus during the night, retreating under the sand come sunrise. While burrowed, they rely on their feather-like antennae to sense vibrations from above.</description>
     <statBases>
       <MoveSpeed>4.35</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
