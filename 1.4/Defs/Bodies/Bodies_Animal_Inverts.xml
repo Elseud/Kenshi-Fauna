@@ -289,12 +289,18 @@
           <customLabel>left crab claw</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
+          <groups>
+            <li>FrontLeftClaws</li>
+          </groups>
         </li>
         <li>
           <def>KenshiFauna_Pincer</def>
           <customLabel>right crab claw</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
+          <groups>
+            <li>FrontRightClaws</li>
+          </groups>
         </li>		
         <li>
           <def>KenshiFauna_TremorLeg</def>

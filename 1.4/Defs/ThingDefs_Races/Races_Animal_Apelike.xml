@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_Gorillo</defName>
     <label>gorillo</label>
-    <description>A large predatory reptilian covered in a layer of thick fur. The gorillo's name is owed to its unusual anatomy, more resembling of a gorilla than any of the Earth's reptiles. Vicious and territorial, they won't hesitate to rip apart anyone who dares to approach them.</description>
+    <description>A large predatory reptilian covered in a layer of thick fur. The gorillo's name is owed to its unusual anatomy, more resembling of a gorilla than any of the Earth's reptiles. Vicious and territorial, they won't hesitate to pulverize anyone who dares to approach them.</description>
     <statBases>
       <MoveSpeed>4.6</MoveSpeed>
       <MarketValue>750</MarketValue>
