@@ -190,17 +190,15 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>KenshiFauna_ElephantTurtle</defName>
     <label>elephant turtle</label>
-    <description>Large, genetically modified soft-shell turtle. Like their namesake, elephant turtles possess prehensile trunks they use to manipulate objects and access vegetation. Being large and timid, they are both an easy to tame pack animal and a low-risk game yielding plenty of food.
-      [7:44 PM]
-      Also</description>
+    <description>Large, genetically modified soft-shell turtle. Like their namesake, elephant turtles possess prehensile trunks they use to manipulate objects and access vegetation. Being large and timid, they are both an easy to tame pack animal and a low-risk game yielding plenty of food.</description>
     <statBases>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
-      <MoveSpeed>4.2</MoveSpeed>
-      <MarketValue>600</MarketValue>
+      <MoveSpeed>3.6</MoveSpeed>
+      <MarketValue>500</MarketValue>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
-      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
       <FilthRate>24</FilthRate>
       <CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
     </statBases>
@@ -210,7 +208,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
+        <power>8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
@@ -219,7 +217,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
+        <power>8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
@@ -228,7 +226,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>12</power>
+        <power>6</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -246,7 +244,7 @@
       <wildness>0.65</wildness>
       <lifeExpectancy>40</lifeExpectancy>
       <packAnimal>true</packAnimal>
-      <roamMtbDays>15</roamMtbDays>
+      <roamMtbDays>8</roamMtbDays>
       <trainability>None</trainability>
       <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
       <wildBiomes>
@@ -300,7 +298,7 @@
     <defName>KenshiFauna_ElephantTurtle</defName>
     <label>elephant turtle</label>
     <race>KenshiFauna_ElephantTurtle</race>
-    <combatPower>200</combatPower>
+    <combatPower>180</combatPower>
     <ecoSystemWeight>1.5</ecoSystemWeight>
     <wildGroupSize>2~5</wildGroupSize>
     <lifeStages>
