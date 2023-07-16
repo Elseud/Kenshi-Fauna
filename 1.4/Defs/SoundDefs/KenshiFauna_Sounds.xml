@@ -11,7 +11,7 @@
             <clipPath>Pawn/KenshiFauna_Garru_Call</clipPath>
           </li>
         </grains>
-        <volumeRange>14~15</volumeRange>
+        <volumeRange>24~25</volumeRange>
         <pitchRange>0.95~1.15</pitchRange>
         <distRange>0~50</distRange>
         <sustainLoop>False</sustainLoop>
@@ -30,7 +30,7 @@
             <clipPath>Pawn/KenshiFauna_Garru_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>0.95~1.15</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -48,7 +48,7 @@
             <clipPath>Pawn/KenshiFauna_Garru_Wounded</clipPath>
           </li>
         </grains>      
-        <volumeRange>15~15</volumeRange>      
+        <volumeRange>25~25</volumeRange>      
         <pitchRange>0.95~1.1</pitchRange>      
         <distRange>0~70</distRange>      
         <repeatMode>NeverTwice</repeatMode>      
@@ -67,7 +67,7 @@
             <clipPath>Pawn/KenshiFauna_Garru_Death</clipPath>
           </li>
         </grains>      
-        <volumeRange>20~20</volumeRange>      
+        <volumeRange>30~30</volumeRange>      
         <pitchRange>0.95~1.1</pitchRange>      
         <distRange>0~70</distRange>      
         <sustainLoop>False</sustainLoop>
@@ -85,7 +85,7 @@
             <clipPath>Pawn/KenshiFauna_Gorillo_Call</clipPath>
           </li>
         </grains>      
-        <volumeRange>12~12</volumeRange>      
+        <volumeRange>22~22</volumeRange>      
         <pitchRange>0.90~1.1</pitchRange>      
         <distRange>0~50</distRange>
       </li>
@@ -102,7 +102,7 @@
             <clipPath>Pawn/KenshiFauna_Gorillo_Angry</clipPath>
           </li>
         </grains>      
-        <volumeRange>25~25</volumeRange>      
+        <volumeRange>35~35</volumeRange>      
         <pitchRange>0.95~1.1</pitchRange>      
         <distRange>0~70</distRange>      
         <sustainLoop>False</sustainLoop>
@@ -120,7 +120,7 @@
             <clipPath>Pawn/KenshiFauna_Gorillo_Death</clipPath>
           </li>
         </grains>      
-        <volumeRange>499~49</volumeRange>      
+        <volumeRange>49~49</volumeRange>      
         <pitchRange>1.5~1.6</pitchRange>      
         <distRange>0~70</distRange>
       </li>
@@ -137,7 +137,7 @@
             <clipPath>Pawn/KenshiFauna_Gorillo_Wounded</clipPath>
           </li>
         </grains>      
-        <volumeRange>18.5~18.5</volumeRange>      
+        <volumeRange>28.5~28.5</volumeRange>      
         <pitchRange>1.2~1</pitchRange>      
         <distRange>0~70</distRange>
       </li>
@@ -154,7 +154,7 @@
             <clipPath>Pawn/KenshiFauna_Gutter_Call</clipPath>
           </li>
         </grains>      
-        <volumeRange>12~12</volumeRange>      
+        <volumeRange>22~22</volumeRange>      
         <pitchRange>0.9~1.1</pitchRange>      
         <distRange>0~50</distRange>
       </li>
@@ -171,7 +171,7 @@
             <clipPath>Pawn/KenshiFauna_Gutter_Angry</clipPath>
           </li>
         </grains>      
-        <volumeRange>25~25</volumeRange>      
+        <volumeRange>35~35</volumeRange>      
         <pitchRange>0.95~1.1</pitchRange>      
         <distRange>0~70</distRange>      
         <sustainLoop>False</sustainLoop>
@@ -189,7 +189,7 @@
             <clipPath>Pawn/KenshiFauna_Gutter_Death</clipPath>
           </li>
         </grains>      
-        <volumeRange>15~15</volumeRange>      
+        <volumeRange>25~25</volumeRange>      
         <pitchRange>1.2~1</pitchRange>      
         <distRange>0~70</distRange>
       </li>
@@ -206,7 +206,7 @@
             <clipPath>Pawn/KenshiFauna_Gutter_Death</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>1.5~1.6</pitchRange>
         <distRange>0~70</distRange>
       </li>
@@ -223,7 +223,7 @@
             <clipPath>Pawn/KenshiFauna_Leviathan_Call</clipPath>
           </li>
         </grains>
-        <volumeRange>15.5~15</volumeRange>
+        <volumeRange>25.5~25</volumeRange>
         <pitchRange>1~1.2</pitchRange>
         <distRange>0~50</distRange>
         <sustainLoop>False</sustainLoop>
@@ -242,7 +242,7 @@
             <clipPath>Pawn/KenshiFauna_Leviathan_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>1~1.2</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -260,7 +260,7 @@
             <clipPath>Pawn/KenshiFauna_Leviathan_Wounded</clipPath>
           </li>
         </grains>      
-        <volumeRange>15~15</volumeRange>      
+        <volumeRange>25~25</volumeRange>      
         <pitchRange>0.95~1.1</pitchRange>      
         <distRange>0~70</distRange>      
         <repeatMode>NeverTwice</repeatMode>      
@@ -279,7 +279,7 @@
             <clipPath>Pawn/KenshiFauna_Leviathan_Death</clipPath>
           </li>
         </grains>      
-        <volumeRange>20~20</volumeRange>      
+        <volumeRange>30~30</volumeRange>      
         <pitchRange>0.95~1.1</pitchRange>      
         <distRange>0~70</distRange>      
         <sustainLoop>False</sustainLoop>
@@ -297,7 +297,7 @@
             <clipPath>Pawn/KenshiFauna_Turtle_Call</clipPath>
           </li>
         </grains>
-        <volumeRange>18~18</volumeRange>
+        <volumeRange>28~28</volumeRange>
         <pitchRange>1~1.15</pitchRange>
         <distRange>0~50</distRange>
         <sustainLoop>False</sustainLoop>
@@ -316,7 +316,7 @@
             <clipPath>Pawn/KenshiFauna_Turtle_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>22~22</volumeRange>
+        <volumeRange>32~32</volumeRange>
         <pitchRange>0.95~1.15</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -334,7 +334,7 @@
             <clipPath>Pawn/KenshiFauna_Turtle_Wounded</clipPath>
           </li>
         </grains>
-        <volumeRange>17~17</volumeRange>
+        <volumeRange>27~27</volumeRange>
         <pitchRange>0.95~1.1</pitchRange>
         <distRange>0~70</distRange>
         <repeatMode>NeverTwice</repeatMode>
@@ -353,7 +353,7 @@
             <clipPath>Pawn/KenshiFauna_Turtle_Death</clipPath>
           </li>
         </grains>
-        <volumeRange>30~30</volumeRange>
+        <volumeRange>40~40</volumeRange>
         <pitchRange>0.95~1.1</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -371,7 +371,7 @@
             <clipPath>Pawn/KenshiFauna_Landbat_Call</clipPath>
           </li>
         </grains>
-        <volumeRange>18~18</volumeRange>
+        <volumeRange>28~28</volumeRange>
         <pitchRange>0.95~1.15</pitchRange>
         <distRange>0~50</distRange>
         <sustainLoop>False</sustainLoop>
@@ -390,7 +390,7 @@
             <clipPath>Pawn/KenshiFauna_Landbat_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>0.95~1.15</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -408,7 +408,7 @@
             <clipPath>Pawn/KenshiFauna_Landbat_Wounded</clipPath>
           </li>
         </grains>
-        <volumeRange>17~17</volumeRange>
+        <volumeRange>27~27</volumeRange>
         <pitchRange>0.95~1.1</pitchRange>
         <distRange>0~70</distRange>
         <repeatMode>NeverTwice</repeatMode>
@@ -427,7 +427,7 @@
             <clipPath>Pawn/KenshiFauna_Landbat_Death</clipPath>
           </li>
         </grains>
-        <volumeRange>30~30</volumeRange>
+        <volumeRange>40~40</volumeRange>
         <pitchRange>0.95~1.1</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -446,7 +446,7 @@
             <clipPath>Pawn/KenshiFauna_Raptor_Call</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>0.7~0.8</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -465,7 +465,7 @@
             <clipPath>Pawn/KenshiFauna_Raptor_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>22~22</volumeRange>
+        <volumeRange>32~32</volumeRange>
         <pitchRange>0.7~0.8</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -483,7 +483,7 @@
             <clipPath>Pawn/KenshiFauna_Raptor_Wounded</clipPath>
           </li>
         </grains>
-        <volumeRange>17~17</volumeRange>
+        <volumeRange>27~27</volumeRange>
         <pitchRange>0.7~0.8</pitchRange>
         <distRange>0~70</distRange>
         <repeatMode>NeverTwice</repeatMode>
@@ -502,7 +502,7 @@
             <clipPath>Pawn/KenshiFauna_Raptor_Death</clipPath>
           </li>
         </grains>
-        <volumeRange>30~30</volumeRange>
+        <volumeRange>40~40</volumeRange>
         <pitchRange>0.7~0.8</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -520,7 +520,7 @@
             <clipPath>Pawn/KenshiFauna_Spider_Call</clipPath>
           </li>
         </grains>
-        <volumeRange>14~14</volumeRange>
+        <volumeRange>24~24</volumeRange>
         <pitchRange>0.90~1.1</pitchRange>
         <distRange>0~50</distRange>
       </li>
@@ -537,7 +537,7 @@
             <clipPath>Pawn/KenshiFauna_Spider_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>0.95~1.1</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -555,7 +555,7 @@
             <clipPath>Pawn/KenshiFauna_Spider_Death</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>1.4~1.6</pitchRange>
         <distRange>0~70</distRange>
       </li>
@@ -572,7 +572,7 @@
             <clipPath>Pawn/KenshiFauna_Spider_Wounded</clipPath>
           </li>
         </grains>
-        <volumeRange>21~21</volumeRange>
+        <volumeRange>31~31</volumeRange>
         <pitchRange>1.2~1</pitchRange>
         <distRange>0~70</distRange>
       </li>
@@ -589,7 +589,7 @@
             <clipPath>Pawn/KenshiFauna_Spider_Call</clipPath>
           </li>
         </grains>
-        <volumeRange>22~22</volumeRange>
+        <volumeRange>32~32</volumeRange>
         <pitchRange>0.90~1.1</pitchRange>
         <distRange>0~50</distRange>
       </li>
@@ -606,7 +606,7 @@
             <clipPath>Pawn/KenshiFauna_Spider_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>0.95~1.05</pitchRange>
         <distRange>0~70</distRange>
         <sustainLoop>False</sustainLoop>
@@ -624,7 +624,7 @@
             <clipPath>Pawn/KenshiFauna_Spider_Death</clipPath>
           </li>
         </grains>
-        <volumeRange>25~25</volumeRange>
+        <volumeRange>35~35</volumeRange>
         <pitchRange>0.95~1.05</pitchRange>
         <distRange>0~70</distRange>
       </li>
@@ -641,7 +641,7 @@
             <clipPath>Pawn/KenshiFauna_Spider_Wounded</clipPath>
           </li>
         </grains>
-        <volumeRange>21~21</volumeRange>
+        <volumeRange>31~31</volumeRange>
         <pitchRange>0.95~1.05</pitchRange>
         <distRange>0~70</distRange>
       </li>
