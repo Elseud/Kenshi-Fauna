@@ -580,13 +580,13 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>KenshiFauna_Skinspider_Wounded</defName>
+    <defName>KenshiFauna_Skinspider_Call</defName>
     <context>MapOnly</context>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/KenshiFauna_Spider_Wounded</clipFolderPath>
+            <clipFolderPath>Pawn/KenshiFauna_Spider_Call</clipFolderPath>
           </li>
         </grains>
         <volumeRange>22~22</volumeRange>

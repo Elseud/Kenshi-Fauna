@@ -557,6 +557,7 @@
       <baseHealthScale>2.6</baseHealthScale>
       <lifeExpectancy>22</lifeExpectancy>
       <trainability>Intermediate</trainability>
+      <specificMeatDef>KenshiFauna_CrabMeat</specificMeatDef>
 	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
 	  <manhunterOnTameFailChance>0.55</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.80</manhunterOnDamageChance>	  
@@ -600,9 +601,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>KenshiFauna_GiantCrab</defName>
+    <defName>KenshiFauna_GiantBlindCrab</defName>
     <label>giant blind crab</label>
-    <race>KenshiFauna_GiantCrab</race>
+    <race>KenshiFauna_GiantBlindCrab</race>
     <combatPower>300</combatPower>
     <ecoSystemWeight>1.15</ecoSystemWeight>
     <lifeStages>
