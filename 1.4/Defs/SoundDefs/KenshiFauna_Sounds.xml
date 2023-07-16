@@ -7,7 +7,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Garru_Call</clipFolderPath>
           </li>
         </grains>
@@ -26,7 +26,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Garru_Angry</clipFolderPath>
           </li>
         </grains>
@@ -44,7 +44,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Garru_Wounded</clipFolderPath>
           </li>
         </grains>      
@@ -63,7 +63,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Garru_Death</clipFolderPath>
           </li>
         </grains>      
@@ -81,7 +81,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Gorillo_Call</clipFolderPath>
           </li>
         </grains>      
@@ -98,7 +98,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Gorillo_Angry</clipFolderPath>
           </li>
         </grains>      
@@ -116,7 +116,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Gorillo_Death</clipFolderPath>
           </li>
         </grains>      
@@ -133,7 +133,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Gorillo_Wounded</clipFolderPath>
           </li>
         </grains>      
@@ -150,7 +150,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Gutter_Call</clipFolderPath>
           </li>
         </grains>      
@@ -167,7 +167,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Gutter_Angry</clipFolderPath>
           </li>
         </grains>      
@@ -185,7 +185,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Gutter_Death</clipFolderPath>
           </li>
         </grains>      
@@ -202,7 +202,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Gutter_Death</clipFolderPath>
           </li>
         </grains>
@@ -219,7 +219,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Leviathan_Call</clipFolderPath>
           </li>
         </grains>
@@ -238,7 +238,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Leviathan_Angry</clipFolderPath>
           </li>
         </grains>
@@ -256,7 +256,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Leviathan_Wounded</clipFolderPath>
           </li>
         </grains>      
@@ -275,7 +275,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Leviathan_Death</clipFolderPath>
           </li>
         </grains>      
@@ -293,7 +293,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Turtle_Call</clipFolderPath>
           </li>
         </grains>
@@ -312,7 +312,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Turtle_Angry</clipFolderPath>
           </li>
         </grains>
@@ -330,7 +330,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Turtle_Wounded</clipFolderPath>
           </li>
         </grains>
@@ -349,7 +349,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Turtle_Death</clipFolderPath>
           </li>
         </grains>
@@ -367,7 +367,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Landbat_Call</clipFolderPath>
           </li>
         </grains>
@@ -386,7 +386,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Landbat_Angry</clipFolderPath>
           </li>
         </grains>
@@ -404,7 +404,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Landbat_Wounded</clipFolderPath>
           </li>
         </grains>
@@ -423,7 +423,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Landbat_Death</clipFolderPath>
           </li>
         </grains>
@@ -442,7 +442,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Raptor_Call</clipFolderPath>
           </li>
         </grains>
@@ -461,7 +461,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Raptor_Angry</clipFolderPath>
           </li>
         </grains>
@@ -479,7 +479,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Raptor_Wounded</clipFolderPath>
           </li>
         </grains>
@@ -498,7 +498,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Raptor_Death</clipFolderPath>
           </li>
         </grains>
@@ -516,7 +516,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Spider_Call</clipFolderPath>
           </li>
         </grains>
@@ -533,7 +533,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Spider_Angry</clipFolderPath>
           </li>
         </grains>
@@ -551,7 +551,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Spider_Death</clipFolderPath>
           </li>
         </grains>
@@ -568,7 +568,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Spider_Wounded</clipFolderPath>
           </li>
         </grains>
@@ -585,7 +585,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Spider_Call</clipFolderPath>
           </li>
         </grains>
@@ -602,7 +602,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Spider_Angry</clipFolderPath>
           </li>
         </grains>
@@ -620,7 +620,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Spider_Death</clipFolderPath>
           </li>
         </grains>
@@ -637,7 +637,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Pawn/KenshiFauna_Spider_Wounded</clipFolderPath>
           </li>
         </grains>
