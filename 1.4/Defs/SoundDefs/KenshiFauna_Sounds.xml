@@ -85,7 +85,7 @@
             <clipPath>Pawn/KenshiFauna_Gorillo_Call</clipPath>
           </li>
         </grains>      
-        <volumeRange>22~22</volumeRange>      
+        <volumeRange>27~27</volumeRange>      
         <pitchRange>0.90~1.1</pitchRange>      
         <distRange>0~50</distRange>
       </li>
@@ -137,7 +137,7 @@
             <clipPath>Pawn/KenshiFauna_Gorillo_Wounded</clipPath>
           </li>
         </grains>      
-        <volumeRange>28.5~28.5</volumeRange>      
+        <volumeRange>32.5~32.5</volumeRange>      
         <pitchRange>1.2~1</pitchRange>      
         <distRange>0~70</distRange>
       </li>
@@ -154,7 +154,7 @@
             <clipPath>Pawn/KenshiFauna_Gutter_Call</clipPath>
           </li>
         </grains>      
-        <volumeRange>22~22</volumeRange>      
+        <volumeRange>27~27</volumeRange>      
         <pitchRange>0.9~1.1</pitchRange>      
         <distRange>0~50</distRange>
       </li>
@@ -189,7 +189,7 @@
             <clipPath>Pawn/KenshiFauna_Gutter_Death</clipPath>
           </li>
         </grains>      
-        <volumeRange>25~25</volumeRange>      
+        <volumeRange>35~35</volumeRange>      
         <pitchRange>1.2~1</pitchRange>      
         <distRange>0~70</distRange>
       </li>
