@@ -86,20 +86,20 @@
 	  </wildBiomes>		  
       <lifeStageAges>
         <li>
-          <def>EusocialInsectLarva</def>
+          <def>AnimalBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
         </li>
         <li>
-          <def>EusocialInsectAdult</def>
+          <def>AnimalAdult</def>
           <minAge>0.4</minAge>
-          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
-          <soundDeath>Pawn_Megascarab_Death</soundDeath>
-          <soundCall>Pawn_Megascarab_Call</soundCall>
-          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+          <soundWounded>KenshiFauna_Bloodspider_Wounded</soundWounded>
+          <soundDeath>KenshiFauna_Bloodspider_Death</soundDeath>
+          <soundCall>KenshiFauna_Bloodspider_Call</soundCall>
+          <soundAngry>KenshiFauna_Bloodspider_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -129,6 +129,7 @@
 	</wildGroupSize>	
     <lifeStages>
       <li>
+        <label>bloodspider larva</label>
         <bodyGraphicData>
           <texPath>Animals/BloodSpider/BloodSpider</texPath>
           <drawSize>1</drawSize>
@@ -225,25 +226,25 @@
 	  </wildBiomes>	  
       <lifeStageAges>
         <li>
-          <def>EusocialInsectLarva</def>
+          <def>AnimalBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
         </li>
         <li>
-          <def>EusocialInsectAdult</def>
-          <minAge>0.2</minAge>
-          <soundWounded>Pawn_Spelopede_Pain</soundWounded>
-          <soundDeath>Pawn_Spelopede_Death</soundDeath>
-          <soundCall>Pawn_Spelopede_Call</soundCall>
-          <soundAngry>Pawn_Spelopede_Angry</soundAngry>
+          <def>AnimalAdult</def>
+          <minAge>0.4</minAge>
+          <soundWounded>KenshiFauna_Skinspider_Wounded</soundWounded>
+          <soundDeath>KenshiFauna_Skinspider_Death</soundDeath>
+          <soundCall>KenshiFauna_Skinspider_Call</soundCall>
+          <soundAngry>KenshiFauna_Skinspider_Angry</soundAngry>
         </li>
       </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
       <headPosPerRotation>
         <li>(0.0, 0, 0.14)</li>
         <li>(0.07, 0, 0.08)</li>
@@ -269,6 +270,7 @@
 	</wildGroupSize>	
     <lifeStages>
       <li>
+        <label>skinspider larva</label>
         <bodyGraphicData>
           <texPath>Animals/SkinSpider/SkinSpider</texPath>
           <drawSize>1.20</drawSize>
@@ -326,7 +328,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12</power>
+        <power>14</power>
         <cooldownTime>2</cooldownTime>
         <chanceFactor>0.7</chanceFactor>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
@@ -345,7 +347,7 @@
 		  <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>14</power>
+        <power>16</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -363,7 +365,7 @@
 		  <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>14</power>
+        <power>16</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -380,7 +382,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
+        <power>11</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -390,15 +392,15 @@
     <race>
       <body>KenshiFauna_SkimmerLike</body>
       <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>2.85</baseBodySize>
-      <baseHealthScale>3.2</baseHealthScale>
+      <baseBodySize>2.45</baseBodySize>
+      <baseHealthScale>2.2</baseHealthScale>
       <lifeExpectancy>12</lifeExpectancy>
-	    <maxPreyBodySize>2.5</maxPreyBodySize>
+	    <maxPreyBodySize>3</maxPreyBodySize>
       <trainability>Intermediate</trainability>
 	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
 	  <predator>true</predator>
-	  <manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.80</manhunterOnDamageChance>	
+	  <manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.40</manhunterOnDamageChance>	
       <wildness>0.85</wildness>  
 	  <wildBiomes>
 		<Desert>0.8</Desert>
@@ -406,15 +408,15 @@
 	  </wildBiomes>	  
       <lifeStageAges>
         <li>
-          <def>EusocialInsectLarva</def>
+          <def>AnimalBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>EusocialInsectJuvenile</def>
+          <def>AnimalJuvenile</def>
           <minAge>0.03</minAge>
         </li>
         <li>
-          <def>EusocialInsectAdult</def>
+          <def>AnimalAdult</def>
           <minAge>0.2</minAge>
           <soundWounded>Pawn_BigInsect_Pain</soundWounded>
           <soundDeath>Pawn_BigInsect_Death</soundDeath>
@@ -442,11 +444,12 @@
     <defName>KenshiFauna_SandSkimmer</defName>
     <label>sandskimmer</label>
     <race>KenshiFauna_SandSkimmer</race>
-    <combatPower>250</combatPower>
+    <combatPower>200</combatPower>
     <ecoSystemWeight>0.45</ecoSystemWeight>
     <wildGroupSize>1~4</wildGroupSize>
     <lifeStages>
       <li>
+        <label>sanskimmer larva</label>
         <bodyGraphicData>
           <texPath>Animals/SandSkimmer/SandSkimmer</texPath>
           <drawSize>2.20</drawSize>
@@ -548,15 +551,15 @@
     <race>
       <body>KenshiFauna_BlindCrabLike</body>
       <predator>true</predator>
-      <maxPreyBodySize>2.75</maxPreyBodySize>
+      <maxPreyBodySize>3</maxPreyBodySize>
       <baseHungerRate>0.15</baseHungerRate>
-      <baseBodySize>3.25</baseBodySize>
-      <baseHealthScale>2.5</baseHealthScale>
+      <baseBodySize>3</baseBodySize>
+      <baseHealthScale>2.6</baseHealthScale>
       <lifeExpectancy>22</lifeExpectancy>
       <trainability>Intermediate</trainability>
 	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
-	  <manhunterOnTameFailChance>0.65</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>1.00</manhunterOnDamageChance>	  
+	  <manhunterOnTameFailChance>0.55</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.80</manhunterOnDamageChance>	  
       <wildness>0.90</wildness>
 	  <wildBiomes>
       <TropicalSwamp>0.8</TropicalSwamp>
@@ -564,20 +567,20 @@
 	  </wildBiomes>	  
       <lifeStageAges>
         <li>
-          <def>EusocialInsectLarva</def>
+          <def>AnimalBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
         </li>
         <li>
-          <def>EusocialInsectAdult</def>
-          <minAge>0.2</minAge>
-          <soundWounded>todo</soundWounded>
-          <soundDeath>todo</soundDeath>
-          <soundCall>todo</soundCall>
-          <soundAngry>todo</soundAngry>
+          <def>AnimalAdult</def>
+          <minAge>0.4</minAge>
+          <soundWounded>Pawn_BigInsect_Pain</soundWounded>
+          <soundDeath>Pawn_BigInsect_Death</soundDeath>
+          <soundCall>Pawn_BigInsect_Call</soundCall>
+          <soundAngry>Pawn_BigInsect_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -598,12 +601,13 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>KenshiFauna_GiantCrab</defName>
-    <label>crab</label>
+    <label>giant blind crab</label>
     <race>KenshiFauna_GiantCrab</race>
     <combatPower>300</combatPower>
     <ecoSystemWeight>1.15</ecoSystemWeight>
     <lifeStages>
       <li>
+        <label>giant blind crab larva</label>
         <bodyGraphicData>
           <texPath>Animals/GiantBlindCrab/GiantBlindCrab</texPath>
           <drawSize>1.2</drawSize>

@@ -52,10 +52,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>0.3333</minAge>
-          <soundWounded>todo</soundWounded>
-          <soundDeath>todo</soundDeath>
-          <soundCall>todo</soundCall>
-          <soundAngry>todo</soundAngry>
+          <soundWounded>KenshiFauna_Garru_Wounded</soundWounded>
+          <soundDeath>KenshiFauna_Garru_Death</soundDeath>
+          <soundCall>KenshiFauna_Garru_Call</soundCall>
+          <soundAngry>KenshiFauna_Garru_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>

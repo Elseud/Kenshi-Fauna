@@ -43,11 +43,15 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.1</minAge>
+          <minAge>0.2222</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.2222</minAge>
+          <minAge>0.4444</minAge>
+          <soundWounded>KenshiFauna_Raptor_Wounded</soundWounded>
+          <soundDeath>KenshiFauna_Raptor_Death</soundDeath>
+          <soundCall>KenshiFauna_Raptor_Call</soundCall>
+          <soundAngry>KenshiFauna_Raptor_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -264,10 +268,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>0.666</minAge>
-          <soundWounded>todo</soundWounded>
-          <soundDeath>todo</soundDeath>
-          <soundCall>todo</soundCall>
-          <soundAngry>todo</soundAngry>
+          <soundWounded>KenshiFauna_Turtle_Wounded</soundWounded>
+          <soundDeath>KenshiFauna_Turtle_Death</soundDeath>
+          <soundCall>KenshiFauna_Turtle_Call</soundCall>
+          <soundAngry>KenshiFauna_Turtle_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>

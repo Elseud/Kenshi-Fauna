@@ -24,7 +24,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>17</power>
+        <power>18</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -41,7 +41,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>17</power>
+        <power>18</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -60,7 +60,7 @@
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>20</power>
+        <power>22</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -77,7 +77,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
+        <power>16</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -94,7 +94,7 @@
       <maxPreyBodySize>4.0</maxPreyBodySize>	  
       <foodType>CarnivoreAnimalStrict</foodType>
       <leatherDef>KenshiFauna_Leather_Gutter</leatherDef>
-      <trainability>Intermediate</trainability>
+      <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <wildness>0.995</wildness>
@@ -121,6 +121,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>1.2</minAge>
+          <soundWounded>KenshiFauna_Gutter_Wounded</soundWounded>
+          <soundDeath>KenshiFauna_Gutter_Death</soundDeath>
+          <soundCall>KenshiFauna_Gutter_Call</soundCall>
+          <soundAngry>KenshiFauna_Gutter_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>

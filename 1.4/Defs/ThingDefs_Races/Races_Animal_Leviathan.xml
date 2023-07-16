@@ -89,10 +89,10 @@
             <li>
               <def>AnimalAdult</def>
               <minAge>1.332</minAge>
-              <soundCall>todo</soundCall>
-              <soundAngry>todo</soundAngry>
-              <soundWounded>todo</soundWounded>
-              <soundDeath>todo</soundDeath>
+              <soundCall>KenshiFauna_Leviathan_Call</soundCall>
+              <soundAngry>KenshiFauna_Leviathan_Angry</soundAngry>
+              <soundWounded>KenshiFauna_Leviathan_Wounded</soundWounded>
+              <soundDeath>KenshiFauna_Leviathan_Death</soundDeath>
             </li>
           </lifeStageAges>
           <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
