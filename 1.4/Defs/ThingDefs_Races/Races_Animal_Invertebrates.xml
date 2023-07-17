@@ -44,7 +44,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>10</power>
+        <power>6</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -75,7 +75,7 @@
       <baseBodySize>0.65</baseBodySize>
       <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>0.8</baseHealthScale>
-      <lifeExpectancy>10</lifeExpectancy>
+      <lifeExpectancy>8</lifeExpectancy>
       <wildness>0.6</wildness>
       <trainability>Intermediate</trainability>
       <gestationPeriodDays>4</gestationPeriodDays>
@@ -185,7 +185,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>10</power>
+        <power>11</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -216,7 +216,7 @@
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>2.4</baseBodySize>
       <baseHealthScale>2.2</baseHealthScale>
-      <lifeExpectancy>8</lifeExpectancy>
+      <lifeExpectancy>12</lifeExpectancy>
       <wildness>0.75</wildness>
       <trainability>Intermediate</trainability>
       <gestationPeriodDays>8</gestationPeriodDays>
@@ -394,7 +394,7 @@
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>2.25</baseBodySize>
       <baseHealthScale>2.1</baseHealthScale>
-      <lifeExpectancy>12</lifeExpectancy>
+      <lifeExpectancy>16</lifeExpectancy>
 	    <maxPreyBodySize>2.5</maxPreyBodySize>
       <trainability>Intermediate</trainability>
 	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
