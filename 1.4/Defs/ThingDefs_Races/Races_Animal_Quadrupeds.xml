@@ -121,7 +121,6 @@
     <race>KenshiFauna_Garru</race>
     <combatPower>90</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
-    <labelMale>bull</labelMale>
     <wildGroupSize>1~7</wildGroupSize>
     <lifeStages>
       <li>
@@ -202,7 +201,7 @@
       <baseHungerRate>0.225</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
-      <wildness>0</wildness>
+      <wildness>0.10</wildness>
       <roamMtbDays>7</roamMtbDays>
       <trainability>None</trainability>
       <gestationPeriodDays>5.61</gestationPeriodDays>
@@ -352,7 +351,7 @@
       <baseHealthScale>1.5</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
-      <wildness>0</wildness>
+      <wildness>0.20</wildness>
       <roamMtbDays>3</roamMtbDays>
       <trainability>None</trainability>
       <meatLabel>beef</meatLabel>
