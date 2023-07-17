@@ -6,7 +6,7 @@
     <label>water raptor</label>
     <description>Slow, lumbering bipedal reptile with a passing resemblence to prehistoric theropods. Ever-hungry, water raptors skim the muck of swamps and humid environments in ravenous search of plants or crops. Their insatiable apetites earned them a reputation of destructive vermin, and the bane of any farmer unfortunate enough to live alongside them.</description>
     <statBases>
-	  <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
+	  <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>	
       <MoveSpeed>3.2</MoveSpeed>
       <MarketValue>200</MarketValue>
       <ComfyTemperatureMin>5</ComfyTemperatureMin>
@@ -18,10 +18,10 @@
       <herdAnimal>true</herdAnimal>
       <body>KenshiFauna_BipedalAnimalWithClawsAndTail</body>
       <baseBodySize>0.9</baseBodySize>
-      <baseHealthScale>1.2</baseHealthScale>
-      <baseHungerRate>0.82</baseHungerRate>
+      <baseHealthScale>1.1</baseHealthScale>
+      <baseHungerRate>1.02</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.95</wildness>
+      <wildness>0.75</wildness>
       <roamMtbDays>3</roamMtbDays>
       <lifeExpectancy>35</lifeExpectancy>
       <meatLabel>raptor meat</meatLabel>
@@ -249,7 +249,7 @@
       <lifeExpectancy>40</lifeExpectancy>
       <packAnimal>true</packAnimal>
       <roamMtbDays>8</roamMtbDays>
-      <trainability>None</trainability>
+      <trainability>Intermediate</trainability>
       <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
       <wildBiomes>
         <TropicalSwamp>0.4</TropicalSwamp>

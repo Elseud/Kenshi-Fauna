@@ -6,11 +6,12 @@
     <label>garru</label>
     <description>A large muscular herbivore with thick leathery skin and floppy ears. Garrus' are nearly synonymous with desert nomads, as their heft and resilience makes them a boon for caravaneers journeying through inhospitable lands; however, they don't make for particularly good cattle.</description>
     <statBases>
-      <MoveSpeed>3.9</MoveSpeed>
+      <MoveSpeed>4.3</MoveSpeed>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
       <ComfyTemperatureMax>65</ComfyTemperatureMax>
       <MarketValue>300</MarketValue>
       <FilthRate>16</FilthRate>
+      <CaravanRidingSpeedFactor>1.3</CaravanRidingSpeedFactor>
     </statBases>
     <race>
       <herdAnimal>true</herdAnimal>
@@ -328,7 +329,7 @@
     <label>bonebull</label>
     <description>Large bone-plated ungulates. Bonebulls are often bred for their meat or used as beasts of burden. In the wild, they're commonly seen moving across the desert wastes in search of scrub vegetation. Thanks to their bone plating and impressive horns, they present a tough target to any would-be predator.</description>
     <statBases>
-      <MoveSpeed>3.2</MoveSpeed>
+      <MoveSpeed>4.5</MoveSpeed>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <ArmorRating_Blunt>0.16</ArmorRating_Blunt>

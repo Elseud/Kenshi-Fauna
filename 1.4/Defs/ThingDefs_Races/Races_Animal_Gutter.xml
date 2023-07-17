@@ -6,8 +6,8 @@
     <label>beakthing</label>
     <description>A towering, terrifying animal of unknown origin. The beakthing is one of the most dangerous and aggressive creatures known to humanity. And while their ferocity would make them perfect attack animals, those same qualities ensure they are almost impossible to tame or ranch.\n\nGutter eggs are considered a delicacy by most; fetching a hefty price for those brave enough to steal them.</description>
     <statBases>
-      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>	
-      <MoveSpeed>5.5</MoveSpeed>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>	
+      <MoveSpeed>5.2</MoveSpeed>
       <MarketValue>2500</MarketValue>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>

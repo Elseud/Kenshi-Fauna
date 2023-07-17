@@ -24,7 +24,7 @@
             <capacities>
               <li>Bite</li>
             </capacities>
-            <power>20</power>
+            <power>22</power>
             <cooldownTime>2</cooldownTime>
             <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
             <chanceFactor>0.7</chanceFactor>
@@ -34,7 +34,7 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>28</power>
+            <power>30</power>
             <cooldownTime>2</cooldownTime>
             <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
           </li>
@@ -43,7 +43,7 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>28</power>
+            <power>30</power>
             <cooldownTime>2</cooldownTime>
             <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
           </li>

@@ -86,7 +86,7 @@
       <baseHealthScale>2.8</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Heavy</leatherDef>
-      <wildness>0.8</wildness>
+      <wildness>0.85</wildness>
       <lifeExpectancy>32</lifeExpectancy>
       <trainability>Intermediate</trainability>
       <manhunterOnTameFailChance>1</manhunterOnTameFailChance>
@@ -187,7 +187,7 @@
     <label>landbat</label>
     <description>A large mutated bat. The fusing of its wings' fingerbones render the landbat flightless, forcing it to be a land-bound scavenger, awkwardly shuffling towards remains of others' feasts on its nigh-useless forelimbs. Despite this, it can still pose a threat to livestock or unprepared travellers due to its large size.</description>
     <statBases>
-      <MoveSpeed>4.6</MoveSpeed>
+      <MoveSpeed>4.4</MoveSpeed>
       <MarketValue>550</MarketValue>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
@@ -266,7 +266,7 @@
       <baseHealthScale>2</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
-      <wildness>0.8</wildness>
+      <wildness>0.85</wildness>
       <lifeExpectancy>15</lifeExpectancy>
       <trainability>Intermediate</trainability>
       <manhunterOnTameFailChance>0.6</manhunterOnTameFailChance>

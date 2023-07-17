@@ -30,7 +30,7 @@
     <label>bloodspider</label>
     <description>A grotesque creature the size of a dog. Bloodspiders primarily act as scavengers, stalking the tangled thickets of swamps and jungles in search of the weak or dying. Once found, the prey is completely drained of blood, earning the bloodspiders their macabre name.\n\nThey aren't actually spiders, but given their feeding habits, nobody wants to figure out their true nature.</description>
     <statBases>
-      <MoveSpeed>4.15</MoveSpeed>
+      <MoveSpeed>3.9</MoveSpeed>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -76,7 +76,7 @@
       <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>0.9</baseHealthScale>
       <lifeExpectancy>10</lifeExpectancy>
-      <wildness>0.5</wildness>
+      <wildness>0.6</wildness>
       <trainability>Intermediate</trainability>
       <gestationPeriodDays>4</gestationPeriodDays>
 	  <wildBiomes>
@@ -171,7 +171,7 @@
     <label>skinspider</label>
     <description>A grotesque creature the size of a horse. Skinspiders hunt primarily by incapacitating a victim and sucking their organs out via the esophagus, leaving behind nothing but skin and bones.\n\nThey aren't actually spiders, but given their feeding habits, nobody wants to figure out their true nature.</description>
     <statBases>
-      <MoveSpeed>4.35</MoveSpeed>
+      <MoveSpeed>4.15</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>450</MarketValue>
       <LeatherAmount>0</LeatherAmount>
@@ -314,7 +314,7 @@
     <label>sandskimmer</label>
     <description>A massive nocturnal invertebrate. Sandskimmers, true to their name, roam the sand dunes in search of prey and detritus during the night, retreating under the sand come sunrise. While burrowed, they rely on their feather-like antennae to sense vibrations from above.</description>
     <statBases>
-      <MoveSpeed>4.45</MoveSpeed>
+      <MoveSpeed>4.05</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>650</MarketValue>
       <LeatherAmount>0</LeatherAmount>
@@ -391,11 +391,11 @@
     </tools>
     <race>
       <body>KenshiFauna_SkimmerLike</body>
-      <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>2.45</baseBodySize>
-      <baseHealthScale>2.2</baseHealthScale>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseBodySize>2.25</baseBodySize>
+      <baseHealthScale>2.1</baseHealthScale>
       <lifeExpectancy>12</lifeExpectancy>
-	    <maxPreyBodySize>3</maxPreyBodySize>
+	    <maxPreyBodySize>2.5</maxPreyBodySize>
       <trainability>Intermediate</trainability>
 	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
 	  <predator>true</predator>
@@ -551,10 +551,10 @@
     <race>
       <body>KenshiFauna_BlindCrabLike</body>
       <predator>true</predator>
-      <maxPreyBodySize>3</maxPreyBodySize>
-      <baseHungerRate>0.15</baseHungerRate>
-      <baseBodySize>3</baseBodySize>
-      <baseHealthScale>2.6</baseHealthScale>
+      <maxPreyBodySize>2.5</maxPreyBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHealthScale>2.5</baseHealthScale>
       <lifeExpectancy>22</lifeExpectancy>
       <trainability>Intermediate</trainability>
       <specificMeatDef>KenshiFauna_CrabMeat</specificMeatDef>
