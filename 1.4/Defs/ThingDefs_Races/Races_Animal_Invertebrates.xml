@@ -163,6 +163,10 @@
 		  <texPath>Animals/BloodSpider/Dessicated_BloodSpider</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
+        <butcherBodyPart MayRequire="Ludeon.RimWorld.Biotech">
+          <bodyPartGroup>KenshiFauna_Stomach</bodyPartGroup>
+          <thing>HemogenPack</thing>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>

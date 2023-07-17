@@ -6,4 +6,9 @@
     <label>gizzard</label>
   </BodyPartGroupDef>
 
+  <BodyPartGroupDef>
+    <defName>KenshiFauna_Stomach</defName>
+    <label>stomach</label>
+  </BodyPartGroupDef>
+
 </Defs>

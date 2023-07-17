@@ -13,6 +13,9 @@
           <def>Stomach</def>
           <coverage>0.05</coverage>
           <depth>Inside</depth>
+          <groups>
+            <li>KenshiFauna_Stomach</li>
+          </groups>
         </li>
         <li>
           <def>InsectHeart</def>

@@ -2,14 +2,12 @@
 
 <ModMetaData>
 	<name>Kenshi Fauna</name> 
-	<author></author>		
-	<packageId>KenshiFauna.9797beep</packageId>
+	<author>Elseud, Vexed</author>		
+	<packageId>EL_KenshiFauna</packageId>
 	<description></description>
-		
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-
-	<modDependencies/>
-	<loadAfter/>
+	<loadAfter>
+	</loadAfter>
 </ModMetaData>
