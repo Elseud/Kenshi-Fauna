@@ -35,6 +35,7 @@
 		<graphicData>
 			<texPath>Items/CrabMeat</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>1.4</drawSize>
 		</graphicData>
 		<statBases>
 			<Mass>0.03</Mass>
