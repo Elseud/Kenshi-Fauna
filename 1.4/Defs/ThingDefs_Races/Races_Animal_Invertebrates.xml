@@ -13,8 +13,7 @@
       <bloodDef>Filth_BloodInsect</bloodDef>
       <meatColor>(160,168,139)</meatColor>
       <meatMarketValue>0.5</meatMarketValue>
-      <foodType>CarnivoreAnimal</foodType>
-      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
     </race>
     <ingredient>
       <mergeCompatibilityTags>
@@ -77,6 +76,8 @@
       <baseHealthScale>0.8</baseHealthScale>
       <lifeExpectancy>8</lifeExpectancy>
       <wildness>0.6</wildness>
+      <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>	
       <trainability>Intermediate</trainability>
       <gestationPeriodDays>4</gestationPeriodDays>
 	  <wildBiomes>
@@ -218,6 +219,8 @@
       <baseHealthScale>2.2</baseHealthScale>
       <lifeExpectancy>12</lifeExpectancy>
       <wildness>0.75</wildness>
+      <manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.60</manhunterOnDamageChance>	
       <trainability>Intermediate</trainability>
       <gestationPeriodDays>8</gestationPeriodDays>
 	  <wildBiomes>
@@ -397,10 +400,9 @@
       <lifeExpectancy>16</lifeExpectancy>
 	    <maxPreyBodySize>3</maxPreyBodySize>
       <trainability>Intermediate</trainability>
-	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
 	  <predator>true</predator>
-	  <manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.40</manhunterOnDamageChance>	
+	  <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.70</manhunterOnDamageChance>	
       <wildness>0.85</wildness>  
 	  <wildBiomes>
 		<Desert>0.8</Desert>
@@ -553,12 +555,12 @@
       <predator>true</predator>
       <maxPreyBodySize>3</maxPreyBodySize>
       <baseHungerRate>0.25</baseHungerRate>
-      <baseBodySize>3,3</baseBodySize>
+      <baseBodySize>3.3</baseBodySize>
       <baseHealthScale>3.1</baseHealthScale>
       <lifeExpectancy>22</lifeExpectancy>
       <trainability>Advanced</trainability>
       <specificMeatDef>KenshiFauna_CrabMeat</specificMeatDef>
-	  <foodType>OmnivoreAnimal</foodType>
+	  <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 	  <manhunterOnTameFailChance>0.55</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.80</manhunterOnDamageChance>	  
       <wildness>0.90</wildness>
