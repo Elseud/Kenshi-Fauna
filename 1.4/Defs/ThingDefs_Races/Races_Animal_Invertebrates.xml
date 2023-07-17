@@ -509,7 +509,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
+        <power>14</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -520,7 +520,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>19</power>
+        <power>17</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -537,7 +537,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>19</power>
+        <power>17</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
         <surpriseAttack>
