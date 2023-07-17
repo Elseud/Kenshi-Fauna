@@ -245,7 +245,7 @@
       <baseHealthScale>3</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Lizard</leatherDef>
-      <wildness>0.65</wildness>
+      <wildness>0.45</wildness>
       <lifeExpectancy>40</lifeExpectancy>
       <packAnimal>true</packAnimal>
       <trainability>Intermediate</trainability>
