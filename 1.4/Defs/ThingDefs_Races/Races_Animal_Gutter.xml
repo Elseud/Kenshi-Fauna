@@ -97,7 +97,7 @@
       <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
-      <wildness>0.995</wildness>
+      <wildness>0.990</wildness>
       <lifeExpectancy>80</lifeExpectancy>
 	  <meatLabel>gutter meat</meatLabel>
 	  <wildBiomes>
