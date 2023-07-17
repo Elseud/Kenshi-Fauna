@@ -71,10 +71,10 @@
     <race>
       <body>KenshiFauna_SpiderLike</body>
       <predator>true</predator>
-      <maxPreyBodySize>0.8</maxPreyBodySize>
-      <baseBodySize>0.75</baseBodySize>
+      <maxPreyBodySize>0.7</maxPreyBodySize>
+      <baseBodySize>0.65</baseBodySize>
       <baseHungerRate>0.4</baseHungerRate>
-      <baseHealthScale>0.9</baseHealthScale>
+      <baseHealthScale>0.8</baseHealthScale>
       <lifeExpectancy>10</lifeExpectancy>
       <wildness>0.6</wildness>
       <trainability>Intermediate</trainability>
@@ -132,27 +132,27 @@
         <label>bloodspider larva</label>
         <bodyGraphicData>
           <texPath>Animals/BloodSpider/BloodSpider</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/BloodSpider/Dessicated_BloodSpider</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
 		  <texPath>Animals/BloodSpider/BloodSpider</texPath>
-          <drawSize>1.40</drawSize>
+          <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
 		  <texPath>Animals/BloodSpider/Dessicated_BloodSpider</texPath>
-          <drawSize>1.40</drawSize>
+          <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
 		  <texPath>Animals/BloodSpider/BloodSpider</texPath>
-          <drawSize>1.65</drawSize>
+          <drawSize>1</drawSize>
           <shadowData>
             <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,0)</offset>
@@ -160,7 +160,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
 		  <texPath>Animals/BloodSpider/Dessicated_BloodSpider</texPath>
-          <drawSize>1.65</drawSize>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
