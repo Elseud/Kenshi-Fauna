@@ -13,7 +13,7 @@
       <bloodDef>Filth_BloodInsect</bloodDef>
       <meatColor>(160,168,139)</meatColor>
       <meatMarketValue>0.5</meatMarketValue>
-      <foodType>OmnivoreAnimal, AnimalProduct</foodType>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
     </race>
     <ingredient>
@@ -556,7 +556,7 @@
       <baseBodySize>2.5</baseBodySize>
       <baseHealthScale>2.5</baseHealthScale>
       <lifeExpectancy>22</lifeExpectancy>
-      <trainability>Intermediate</trainability>
+      <trainability>Advanced</trainability>
       <specificMeatDef>KenshiFauna_CrabMeat</specificMeatDef>
 	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
 	  <manhunterOnTameFailChance>0.55</manhunterOnTameFailChance>
