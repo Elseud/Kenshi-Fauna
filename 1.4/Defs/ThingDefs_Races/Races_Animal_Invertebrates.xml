@@ -13,7 +13,7 @@
       <bloodDef>Filth_BloodInsect</bloodDef>
       <meatColor>(160,168,139)</meatColor>
       <meatMarketValue>0.5</meatMarketValue>
-      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <foodType>CarnivoreAnimal</foodType>
       <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
     </race>
     <ingredient>
@@ -392,10 +392,10 @@
     <race>
       <body>KenshiFauna_SkimmerLike</body>
       <baseHungerRate>0.25</baseHungerRate>
-      <baseBodySize>2.25</baseBodySize>
-      <baseHealthScale>2.1</baseHealthScale>
+      <baseBodySize>3</baseBodySize>
+      <baseHealthScale>2.6</baseHealthScale>
       <lifeExpectancy>16</lifeExpectancy>
-	    <maxPreyBodySize>2.5</maxPreyBodySize>
+	    <maxPreyBodySize>3</maxPreyBodySize>
       <trainability>Intermediate</trainability>
 	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
 	  <predator>true</predator>
@@ -551,14 +551,14 @@
     <race>
       <body>KenshiFauna_BlindCrabLike</body>
       <predator>true</predator>
-      <maxPreyBodySize>2.5</maxPreyBodySize>
+      <maxPreyBodySize>3</maxPreyBodySize>
       <baseHungerRate>0.25</baseHungerRate>
-      <baseBodySize>2.5</baseBodySize>
-      <baseHealthScale>2.5</baseHealthScale>
+      <baseBodySize>3,3</baseBodySize>
+      <baseHealthScale>3.1</baseHealthScale>
       <lifeExpectancy>22</lifeExpectancy>
       <trainability>Advanced</trainability>
       <specificMeatDef>KenshiFauna_CrabMeat</specificMeatDef>
-	  <foodType>OmnivoreAnimal, AnimalProduct</foodType>
+	  <foodType>OmnivoreAnimal</foodType>
 	  <manhunterOnTameFailChance>0.55</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.80</manhunterOnDamageChance>	  
       <wildness>0.90</wildness>
