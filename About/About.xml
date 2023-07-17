@@ -3,7 +3,7 @@
 <ModMetaData>
 	<name>Kenshi Fauna</name> 
 	<author>Elseud, Vexed</author>		
-	<packageId>EL_KenshiFauna</packageId>
+	<packageId>EL.KenshiFauna</packageId>
 	<description>A collection of wondrous critters from Kenshi, here to help your colonists relax, enjoy death.</description>
 	<supportedVersions>
 		<li>1.4</li>
