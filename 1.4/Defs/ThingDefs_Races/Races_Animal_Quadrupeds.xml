@@ -16,7 +16,7 @@
     <race>
       <herdAnimal>true</herdAnimal>
       <body>QuadrupedAnimalWithHooves</body>
-      <baseBodySize>2.6</baseBodySize>
+      <baseBodySize>2.4</baseBodySize>
       <baseHealthScale>1.75</baseHealthScale>
       <baseHungerRate>0.475</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
@@ -129,7 +129,7 @@
         <labelPlural>garru calves</labelPlural>
         <bodyGraphicData>
           <texPath>Animals/Garru/Garru</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>1.3</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -137,13 +137,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/Garru/Dessicated_Garru</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
 		  <texPath>Animals/Garru/Garru</texPath>
-          <drawSize>2.25</drawSize>
+          <drawSize>2.05</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -151,13 +151,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
 		  <texPath>Animals/Garru/Dessicated_Garru</texPath>
-          <drawSize>2.25</drawSize>
+          <drawSize>2.05</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
 		  <texPath>Animals/Garru/Garru</texPath>
-          <drawSize>3</drawSize>
+          <drawSize>2.8</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -165,7 +165,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
 		  <texPath>Animals/Garru/Dessicated_Garru</texPath>
-          <drawSize>3</drawSize>
+          <drawSize>2.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -347,13 +347,13 @@
     <race>
       <body>QuadrupedAnimalWithHooves</body>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>2.4</baseBodySize>
+      <baseBodySize>2.6</baseBodySize>
       <baseHungerRate>0.535</baseHungerRate>
       <baseHealthScale>1.5</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
       <wildness>0</wildness>
-      <roamMtbDays>2</roamMtbDays>
+      <roamMtbDays>3</roamMtbDays>
       <trainability>None</trainability>
       <meatLabel>beef</meatLabel>
       <gestationPeriodDays>6.66</gestationPeriodDays>
