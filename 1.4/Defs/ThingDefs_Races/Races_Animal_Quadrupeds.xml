@@ -278,7 +278,7 @@
       <li>
         <label>baby bonegoat</label>
         <bodyGraphicData>
-          <texPath>Things/Bonegoat/Bonegoat</texPath>
+          <texPath>Animals/Bonegoat/Bonegoat</texPath>
           <drawSize>0.6</drawSize>
           <shadowData>
             <volume>(0.25, 0.25, 0.25)</volume>
