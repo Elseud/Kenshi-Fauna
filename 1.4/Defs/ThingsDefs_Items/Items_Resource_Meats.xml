@@ -44,9 +44,6 @@
 		<ingestible>
 			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
 		</ingestible>
-		<thingCategories MayRequire="VanillaExpanded.VCEF">
-			<li>VCEF_RawFishCategory</li>
-		</thingCategories>
 	</ThingDef>
 
 </Defs>
