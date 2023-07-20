@@ -132,10 +132,15 @@
       <parts>
         <li>
           <def>Stomach</def>
-          <coverage>0.05</coverage>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>KenshiFauna_StomachSack</def>
+          <coverage>0.01</coverage>
           <depth>Inside</depth>
           <groups>
-            <li>KenshiFauna_Stomach</li>
+            <li>KenshiFauna_StomachSack</li>
           </groups>
         </li>
         <li>

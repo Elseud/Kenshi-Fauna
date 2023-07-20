@@ -7,8 +7,8 @@
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
-    <defName>KenshiFauna_Stomach</defName>
-    <label>stomach</label>
+    <defName>KenshiFauna_StomachSack</defName>
+    <label>stomach sack</label>
   </BodyPartGroupDef>
 
 </Defs>

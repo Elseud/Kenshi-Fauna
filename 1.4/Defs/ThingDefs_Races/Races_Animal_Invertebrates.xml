@@ -164,8 +164,8 @@
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
-          <bodyPartGroup>KenshiFauna_Stomach</bodyPartGroup>
-          <thing  MayRequire="Ludeon.RimWorld.Biotech">HemogenPack</thing>
+          <bodyPartGroup>KenshiFauna_StomachSack</bodyPartGroup>
+          <thing MayRequire="Ludeon.RimWorld.Biotech">HemogenPack</thing>
         </butcherBodyPart>
       </li>
     </lifeStages>
