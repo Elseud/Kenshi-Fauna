@@ -352,6 +352,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.20</wildness>
+      <packAnimal>true</packAnimal>
       <roamMtbDays>3</roamMtbDays>
       <trainability>None</trainability>
       <meatLabel>beef</meatLabel>
