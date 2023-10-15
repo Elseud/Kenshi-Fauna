@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BuildingBase" Name="Wall">
+  <ThingDef ParentName="BuildingBase">
     <defName>KenshiFauna_LayeredNacreWall</defName>
     <label>layered nacre wall</label>
     <description>An exquisite wall made from leviathan pearls, built by painstakingly layering nacre to preserve its gloss and natural look. Its construction process is slow, but makes for a surprisingly resilient and structurally stable wall with a beautiful lustre. Capable of holding up a roof.</description>
